@@ -1,0 +1,78 @@
+
+distance 3, p = 0.002, 20000 shots, 24 detectors, 78 edges; no decoding 0.04410; PyMatching (reference library) 0.00285
+decoder                                    LER              95% CI   us/shot
+MWPM (exact, subset DP)                0.00285 [0.00220, 0.00369]       4.5
+Union-Find                             0.00405 [0.00326, 0.00503]      17.0
+Belief propagation + UF fallback       0.00375 [0.00299, 0.00470]     207.6
+Local matching (parallel rounds)       0.00335 [0.00264, 0.00425]       6.5
+Greedy matching                        0.00335 [0.00264, 0.00425]       1.5
+Lookup table (weight <= 2)             0.00340 [0.00268, 0.00431]       2.5
+Tsetlin machine (parity literals)      0.01080 [0.00946, 0.01233]       0.9
+Clifford-clause TM (learned literals)   0.01675 [0.01506, 0.01862]      12.4
+Clifford-clause TM (cut literals)      0.00505 [0.00416, 0.00613]       2.0
+Cut vote -> MWPM (exact, subset DP)    0.00415 [0.00335, 0.00514]       1.3
+Clifford-clause -> MWPM (margin 13)    0.00365 [0.00290, 0.00459]       2.8
+   MWPM fallbacks to greedy: 0; lookup misses: 282 of 20000
+   BP settled without fallback on 97.0% of shots; local matching used 0.5 rounds on average, 6 at most
+   rules: Tsetlin 20, Clifford-clause learned 94, Clifford-clause cuts 87 over 12 literals; lookup table entries 2460
+   cut vote settled 90.6% of shots without matching; hybrid (margin 13) settled 93.4%
+   hybrid margin sweep (margin, share answered by rules, LER): [(4, 0.999, 0.0049), (8, 0.998, 0.00465), (11, 0.981, 0.00415), (13, 0.934, 0.00365), (15, 0.868, 0.003)]
+
+distance 3, p = 0.005, 20000 shots, 24 detectors, 78 edges; no decoding 0.10425; PyMatching (reference library) 0.01805
+decoder                                    LER              95% CI   us/shot
+MWPM (exact, subset DP)                0.01805 [0.01630, 0.01999]       8.6
+Union-Find                             0.02320 [0.02120, 0.02538]      42.5
+Belief propagation + UF fallback       0.02175 [0.01982, 0.02387]     198.3
+Local matching (parallel rounds)       0.02110 [0.01920, 0.02319]      14.6
+Greedy matching                        0.02110 [0.01920, 0.02319]       2.7
+Lookup table (weight <= 2)             0.02180 [0.01987, 0.02392]       9.2
+Tsetlin machine (parity literals)      0.04040 [0.03776, 0.04322]       0.8
+Clifford-clause TM (learned literals)   0.05695 [0.05382, 0.06025]      12.9
+Clifford-clause TM (cut literals)      0.02895 [0.02672, 0.03137]       2.2
+Cut vote -> MWPM (exact, subset DP)    0.02500 [0.02293, 0.02726]       3.1
+Clifford-clause -> MWPM (margin 13)    0.01860 [0.01682, 0.02057]       6.0
+   MWPM fallbacks to greedy: 0; lookup misses: 1644 of 20000
+   BP settled without fallback on 88.6% of shots; local matching used 1.2 rounds on average, 7 at most
+   rules: Tsetlin 28, Clifford-clause learned 90, Clifford-clause cuts 88 over 12 literals; lookup table entries 2460
+   cut vote settled 79.7% of shots without matching; hybrid (margin 13) settled 71.9%
+   hybrid margin sweep (margin, share answered by rules, LER): [(4, 0.99, 0.02755), (8, 0.985, 0.02705), (11, 0.813, 0.02175), (13, 0.719, 0.0186), (15, 0.684, 0.01805)]
+
+distance 5, p = 0.002, 20000 shots, 120 detectors, 502 edges; no decoding 0.10625; PyMatching (reference library) 0.00100
+decoder                                    LER              95% CI   us/shot
+MWPM (exact, subset DP)                0.00100 [0.00065, 0.00154]      31.6
+Union-Find                             0.00220 [0.00164, 0.00295]     183.7
+Belief propagation + UF fallback       0.00195 [0.00143, 0.00266]    1905.1
+Local matching (parallel rounds)       0.00705 [0.00598, 0.00831]      27.9
+Greedy matching                        0.01015 [0.00885, 0.01164]       7.9
+Lookup table (weight <= 1)             0.00220 [0.00164, 0.00295]     151.8
+Tsetlin machine (parity literals)      0.05880 [0.05562, 0.06215]       2.9
+Clifford-clause TM (learned literals)   0.08985 [0.08597, 0.09389]      32.8
+Clifford-clause TM (cut literals)      0.00805 [0.00690, 0.00939]       7.3
+Cut vote -> MWPM (exact, subset DP)    0.00110 [0.00073, 0.00167]      17.7
+Clifford-clause -> MWPM (margin 13)    0.00110 [0.00073, 0.00167]      16.2
+   MWPM fallbacks to greedy: 0; lookup misses: 11564 of 20000
+   BP settled without fallback on 87.8% of shots; local matching used 2.1 rounds on average, 9 at most
+   rules: Tsetlin 31, Clifford-clause learned 91, Clifford-clause cuts 99 over 37 literals; lookup table entries 503
+   cut vote settled 58.9% of shots without matching; hybrid (margin 13) settled 90.5%
+   hybrid margin sweep (margin, share answered by rules, LER): [(4, 0.993, 0.00645), (8, 0.971, 0.0041), (11, 0.93, 0.0021), (13, 0.905, 0.0011), (15, 0.892, 0.00105)]
+
+distance 5, p = 0.005, 20000 shots, 120 detectors, 502 edges; no decoding 0.22765; PyMatching (reference library) 0.01440
+decoder                                    LER              95% CI   us/shot
+MWPM (exact, subset DP)                0.01455 [0.01298, 0.01631]     309.0
+Union-Find                             0.02605 [0.02393, 0.02835]     297.1
+Belief propagation + UF fallback       0.02485 [0.02278, 0.02710]    2006.2
+Local matching (parallel rounds)       0.04030 [0.03766, 0.04312]      59.2
+Greedy matching                        0.05605 [0.05295, 0.05932]      31.0
+Lookup table (weight <= 1)             0.02605 [0.02393, 0.02835]     307.3
+Tsetlin machine (parity literals)      0.18985 [0.18447, 0.19534]       3.3
+Clifford-clause TM (learned literals)   0.22065 [0.21496, 0.22645]      33.4
+Clifford-clause TM (cut literals)      0.07215 [0.06865, 0.07582]       7.4
+Cut vote -> MWPM (exact, subset DP)    0.01755 [0.01582, 0.01946]     264.8
+Clifford-clause -> MWPM (margin 13)    0.01750 [0.01577, 0.01941]     233.3
+   MWPM fallbacks to greedy: 19; lookup misses: 18816 of 20000
+   BP settled without fallback on 57.9% of shots; local matching used 3.5 rounds on average, 9 at most
+   rules: Tsetlin 23, Clifford-clause learned 94, Clifford-clause cuts 95 over 37 literals; lookup table entries 503
+   cut vote settled 30.5% of shots without matching; hybrid (margin 13) settled 64.0%
+   hybrid margin sweep (margin, share answered by rules, LER): [(4, 0.924, 0.0472), (8, 0.802, 0.02885), (11, 0.696, 0.0204), (13, 0.64, 0.0175), (15, 0.599, 0.01615)]
+
+Shot-level parallelism, Union-Find, d=5, p=0.005: serial 6.89s, 2 processes 3.87s, speedup 1.78x, identical output: True

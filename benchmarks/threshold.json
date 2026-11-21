@@ -1,0 +1,200 @@
+{
+ "d3_p0.002": {
+  "decoder": "Union-Find",
+  "shots": 4000,
+  "errors": 17,
+  "logical_error_rate": 0.00425,
+  "ci95": [
+   0.0026552250583185243,
+   0.006796097891120834
+  ],
+  "us_per_shot": 23.012774250002366
+ },
+ "d3_p0.004": {
+  "decoder": "Union-Find",
+  "shots": 4000,
+  "errors": 56,
+  "logical_error_rate": 0.014,
+  "ci95": [
+   0.010797235388776569,
+   0.018135377729584557
+  ],
+  "us_per_shot": 44.77361224999754
+ },
+ "d3_p0.006": {
+  "decoder": "Union-Find",
+  "shots": 4000,
+  "errors": 135,
+  "logical_error_rate": 0.03375,
+  "ci95": [
+   0.028585795390945735,
+   0.03980891832600052
+  ],
+  "us_per_shot": 61.28342975000223
+ },
+ "d3_p0.008": {
+  "decoder": "Union-Find",
+  "shots": 4000,
+  "errors": 194,
+  "logical_error_rate": 0.0485,
+  "ci95": [
+   0.04226496333488697,
+   0.05560144576581272
+  ],
+  "us_per_shot": 58.749372500003005
+ },
+ "d3_p0.01": {
+  "decoder": "Union-Find",
+  "shots": 4000,
+  "errors": 308,
+  "logical_error_rate": 0.077,
+  "ci95": [
+   0.06913810158279646,
+   0.08567361724244377
+  ],
+  "us_per_shot": 59.89823624999957
+ },
+ "d3_p0.012": {
+  "decoder": "Union-Find",
+  "shots": 4000,
+  "errors": 383,
+  "logical_error_rate": 0.09575,
+  "ci95": [
+   0.0870151529564418,
+   0.10526058542441721
+  ],
+  "us_per_shot": 86.0857532499999
+ },
+ "d5_p0.002": {
+  "decoder": "Union-Find",
+  "shots": 4000,
+  "errors": 6,
+  "logical_error_rate": 0.0015,
+  "ci95": [
+   0.0006876297196592976,
+   0.0032689703616226393
+  ],
+  "us_per_shot": 221.42684800000012
+ },
+ "d5_p0.004": {
+  "decoder": "Union-Find",
+  "shots": 4000,
+  "errors": 66,
+  "logical_error_rate": 0.0165,
+  "ci95": [
+   0.01299082492809121,
+   0.02093699079768575
+  ],
+  "us_per_shot": 261.317665
+ },
+ "d5_p0.006": {
+  "decoder": "Union-Find",
+  "shots": 4000,
+  "errors": 166,
+  "logical_error_rate": 0.0415,
+  "ci95": [
+   0.03574642213342547,
+   0.048133419666509865
+  ],
+  "us_per_shot": 318.2966769999993
+ },
+ "d5_p0.008": {
+  "decoder": "Union-Find",
+  "shots": 4000,
+  "errors": 318,
+  "logical_error_rate": 0.0795,
+  "ci95": [
+   0.07151435000411377,
+   0.0882925714285423
+  ],
+  "us_per_shot": 378.6508475000012
+ },
+ "d5_p0.01": {
+  "decoder": "Union-Find",
+  "shots": 4000,
+  "errors": 519,
+  "logical_error_rate": 0.12975,
+  "ci95": [
+   0.11969056223357522,
+   0.14051993160813914
+  ],
+  "us_per_shot": 408.4273557499998
+ },
+ "d5_p0.012": {
+  "decoder": "Union-Find",
+  "shots": 4000,
+  "errors": 697,
+  "logical_error_rate": 0.17425,
+  "ci95": [
+   0.16280865234927555,
+   0.18631644790444069
+  ],
+  "us_per_shot": 433.1021897499987
+ },
+ "d7_p0.002": {
+  "decoder": "Union-Find",
+  "shots": 4000,
+  "errors": 3,
+  "logical_error_rate": 0.00075,
+  "ci95": [
+   0.0002550951115929764,
+   0.0022029441874642083
+  ],
+  "us_per_shot": 749.6496282500011
+ },
+ "d7_p0.004": {
+  "decoder": "Union-Find",
+  "shots": 4000,
+  "errors": 45,
+  "logical_error_rate": 0.01125,
+  "ci95": [
+   0.008418549869237022,
+   0.01501934038096668
+  ],
+  "us_per_shot": 1021.1088629999985
+ },
+ "d7_p0.006": {
+  "decoder": "Union-Find",
+  "shots": 4000,
+  "errors": 186,
+  "logical_error_rate": 0.0465,
+  "ci95": [
+   0.040398270206569345,
+   0.053471976808197666
+  ],
+  "us_per_shot": 1153.1455455000028
+ },
+ "d7_p0.008": {
+  "decoder": "Union-Find",
+  "shots": 4000,
+  "errors": 409,
+  "logical_error_rate": 0.10225,
+  "ci95": [
+   0.09323903368991211,
+   0.11202423147022807
+  ],
+  "us_per_shot": 1401.294131250001
+ },
+ "d7_p0.01": {
+  "decoder": "Union-Find",
+  "shots": 4000,
+  "errors": 734,
+  "logical_error_rate": 0.1835,
+  "ci95": [
+   0.1718099796974059,
+   0.19579737020374893
+  ],
+  "us_per_shot": 1517.7939032499985
+ },
+ "d7_p0.012": {
+  "decoder": "Union-Find",
+  "shots": 4000,
+  "errors": 1074,
+  "logical_error_rate": 0.2685,
+  "ci95": [
+   0.25499264901601926,
+   0.2824515895372741
+  ],
+  "us_per_shot": 1594.0960554999995
+ }
+}

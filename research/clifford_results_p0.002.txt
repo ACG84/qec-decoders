@@ -1,0 +1,30 @@
+d=3 p=0.002: no decoding 0.0440, MWPM 0.0031
+  raw detectors (propositional clauses)        literals   24 | TM 0.0316 | 16-leaf tree 0.0265  (13s)
+  hand-written stabilizer parities             literals    8 | TM 0.0072 | 16-leaf tree 0.0050  (6s)
+  learned Clifford literals, 1 CNOT rounds     literals   48 | TM 0.0200 | 16-leaf tree 0.0067  (10s)
+      parity sizes {0: 0, 1: 24, 2: 24}; rediscovered 4/8 hand-written stabilizer parities
+     same, parity literals only                literals   24 | TM 0.0155 | 16-leaf tree 0.0065  (9s)
+  learned Clifford literals, 2 CNOT rounds     literals   72 | TM 0.0140 | 16-leaf tree 0.0054  (11s)
+      parity sizes {0: 0, 1: 24, 2: 46, 3: 0, 4: 2}; rediscovered 4/8 hand-written stabilizer parities
+     same, parity literals only                literals   48 | TM 0.0155 | 16-leaf tree 0.0052  (11s)
+  learned Clifford literals, 3 CNOT rounds     literals   96 | TM 0.0144 | 16-leaf tree 0.0054  (13s)
+      parity sizes {0: 0, 1: 24, 2: 68, 3: 1, 4: 3}; rediscovered 4/8 hand-written stabilizer parities
+     same, parity literals only                literals   72 | TM 0.0123 | 16-leaf tree 0.0055  (16s)
+  learned Clifford literals, 5 CNOT rounds     literals  144 | TM 0.0124 | 16-leaf tree 0.0053  (18s)
+      parity sizes {0: 0, 1: 24, 2: 89, 3: 14, 4: 16, 5: 0, 6: 1}; rediscovered 6/8 hand-written stabilizer parities
+     same, parity literals only                literals  120 | TM 0.0132 | 16-leaf tree 0.0053  (15s)
+d=5 p=0.002: no decoding 0.1077, MWPM 0.0010
+  raw detectors (propositional clauses)        literals  120 | TM 0.1087 | 16-leaf tree 0.1035  (39s)
+  hand-written stabilizer parities             literals   24 | TM 0.0670 | 16-leaf tree 0.0287  (8s)
+  learned Clifford literals, 1 CNOT rounds     literals  240 | TM 0.0948 | 16-leaf tree 0.0860  (25s)
+      parity sizes {0: 0, 1: 120, 2: 120}; rediscovered 0/24 hand-written stabilizer parities
+     same, parity literals only                literals  120 | TM 0.0917 | 16-leaf tree 0.0860  (23s)
+  learned Clifford literals, 2 CNOT rounds     literals  360 | TM 0.0856 | 16-leaf tree 0.0856  (36s)
+      parity sizes {0: 0, 1: 120, 2: 235, 3: 0, 4: 5}; rediscovered 0/24 hand-written stabilizer parities
+     same, parity literals only                literals  240 | TM 0.0921 | 16-leaf tree 0.0856  (25s)
+  learned Clifford literals, 5 CNOT rounds     literals  400 | TM 0.0926 | 16-leaf tree 0.0858  (35s)
+      parity sizes {0: 0, 1: 120, 2: 274, 3: 1, 4: 5}; rediscovered 0/24 hand-written stabilizer parities
+     same, parity literals only                literals  280 | TM 0.0869 | 16-leaf tree 0.0858  (28s)
+  learned Clifford literals, 7 CNOT rounds     literals  400 | TM 0.0926 | 16-leaf tree 0.0858  (37s)
+      parity sizes {0: 0, 1: 120, 2: 274, 3: 1, 4: 5}; rediscovered 0/24 hand-written stabilizer parities
+     same, parity literals only                literals  280 | TM 0.0869 | 16-leaf tree 0.0858  (33s)

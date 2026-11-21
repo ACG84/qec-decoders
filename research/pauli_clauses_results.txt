@@ -1,0 +1,9 @@
+5-qubit code vs random stabilizer states; 40 training shots per basis, 3000 test shots per class
+  bases with at least one learned check: 45 of 243; Z basis has 0
+  Z basis only (ordinary literals)   checks 0 | misses code state 0.000 | accepts random state 1.000 | balanced error 0.500
+  one learned basis                  checks 1 | misses code state 0.000 | accepts random state 0.495 | balanced error 0.247
+  2 copies, 2 learned bases          checks 2 | misses code state 0.000 | accepts random state 0.256 | balanced error 0.128
+  3 copies, 3 learned bases          checks 3 | misses code state 0.000 | accepts random state 0.128 | balanced error 0.064
+  4 copies, 4 learned bases          checks 4 | misses code state 0.000 | accepts random state 0.064 | balanced error 0.032
+  learned checks: basis XXXZZ: +XIXZZ; basis XXYXY: +XXYIY; basis XXZZX: +IXZZX; basis XYXXY: +IYXXY
+  distinct learned checks: 15; all are true stabilizers or logical-free products: True

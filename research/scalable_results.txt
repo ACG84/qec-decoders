@@ -1,0 +1,17 @@
+A. Noise-free scaling (5 random codes per size)
+     n   k | samples used (mean) | copies | exact recovery | learn time | clause: miss / false accept
+      5   1 |     15.8            |     63 | 1.00           |   0.01s    | 0.000 / 0.065
+     10   1 |     20.6            |     82 | 1.00           |   0.01s    | 0.000 / 0.000
+     20   2 |     32.0            |    128 | 1.00           |   0.03s    | 0.000 / 0.000
+     40   4 |     53.6            |    214 | 1.00           |   0.13s    | 0.000 / 0.000
+     80   8 |     96.8            |    387 | 1.00           |   0.57s    | 0.000 / 0.000
+    120  12 |    142.0            |    568 | 1.00           |   1.94s    | 0.000 / 0.000
+B. With noise: information-set search, 400 Bell-difference samples, up to 4000 subsets (5 codes per row)
+     n   k    p   | exact recovery | subsets tried (median) | time   | clause: miss / false accept
+      5   1  0.010 | 1.00           |     26                 |   0.0s | 0.093 / 0.050
+      5   1  0.030 | 0.00           |   4000                 |   0.4s | nan / nan
+      8   1  0.010 | 1.00           |    948                 |   0.2s | 0.123 / 0.007
+     12   1  0.005 | 1.00           |   2143                 |   0.5s | 0.090 / 0.000
+     12   1  0.010 | 0.00           |   4000                 |   1.0s | nan / nan
+     16   2  0.005 | 0.00           |   4000                 |   1.3s | nan / nan
+     24   2  0.005 | 0.00           |   4000                 |   2.1s | nan / nan

@@ -1,0 +1,606 @@
+{
+ "d3_p0.002_hybrid_sweep": [
+  [
+   4,
+   0.999,
+   0.0049
+  ],
+  [
+   8,
+   0.998,
+   0.00465
+  ],
+  [
+   11,
+   0.981,
+   0.00415
+  ],
+  [
+   13,
+   0.934,
+   0.00365
+  ],
+  [
+   15,
+   0.868,
+   0.003
+  ]
+ ],
+ "d3_p0.002": [
+  {
+   "decoder": "MWPM (exact, subset DP)",
+   "shots": 20000,
+   "errors": 57,
+   "logical_error_rate": 0.00285,
+   "ci95": [
+    0.0022005726765455926,
+    0.0036903757900729394
+   ],
+   "us_per_shot": 4.5004935500003285
+  },
+  {
+   "decoder": "Union-Find",
+   "shots": 20000,
+   "errors": 81,
+   "logical_error_rate": 0.00405,
+   "ci95": [
+    0.0032599777222273077,
+    0.005030509840921562
+   ],
+   "us_per_shot": 16.98043709999979
+  },
+  {
+   "decoder": "Belief propagation + UF fallback",
+   "shots": 20000,
+   "errors": 75,
+   "logical_error_rate": 0.00375,
+   "ci95": [
+    0.002992926230115247,
+    0.004697676558901039
+   ],
+   "us_per_shot": 207.58406720000266
+  },
+  {
+   "decoder": "Local matching (parallel rounds)",
+   "shots": 20000,
+   "errors": 67,
+   "logical_error_rate": 0.00335,
+   "ci95": [
+    0.0026389749467229003,
+    0.004251781476783273
+   ],
+   "us_per_shot": 6.526563849996592
+  },
+  {
+   "decoder": "Greedy matching",
+   "shots": 20000,
+   "errors": 67,
+   "logical_error_rate": 0.00335,
+   "ci95": [
+    0.0026389749467229003,
+    0.004251781476783273
+   ],
+   "us_per_shot": 1.5290968500039526
+  },
+  {
+   "decoder": "Lookup table (weight <= 2)",
+   "shots": 20000,
+   "errors": 68,
+   "logical_error_rate": 0.0034,
+   "ci95": [
+    0.00268307449085832,
+    0.004307662728336617
+   ],
+   "us_per_shot": 2.5293998500046655
+  },
+  {
+   "decoder": "Tsetlin machine (parity literals)",
+   "shots": 20000,
+   "errors": 216,
+   "logical_error_rate": 0.0108,
+   "ci95": [
+    0.00945850615221914,
+    0.012329388828912888
+   ],
+   "us_per_shot": 0.870237599997381
+  },
+  {
+   "decoder": "Clifford-clause TM (learned literals)",
+   "shots": 20000,
+   "errors": 335,
+   "logical_error_rate": 0.01675,
+   "ci95": [
+    0.015061946958324586,
+    0.018623662709770367
+   ],
+   "us_per_shot": 12.36924849999923
+  },
+  {
+   "decoder": "Clifford-clause TM (cut literals)",
+   "shots": 20000,
+   "errors": 101,
+   "logical_error_rate": 0.00505,
+   "ci95": [
+    0.004158160168468409,
+    0.006131943308455744
+   ],
+   "us_per_shot": 1.9809997500033205
+  },
+  {
+   "decoder": "Cut vote -> MWPM (exact, subset DP)",
+   "shots": 20000,
+   "errors": 83,
+   "logical_error_rate": 0.00415,
+   "ci95": [
+    0.00334926744999532,
+    0.005141181704531079
+   ],
+   "us_per_shot": 1.2639257500040912
+  },
+  {
+   "decoder": "Clifford-clause -> MWPM (margin 13)",
+   "shots": 20000,
+   "errors": 73,
+   "logical_error_rate": 0.00365,
+   "ci95": [
+    0.002904199393341148,
+    0.0045864418042976095
+   ],
+   "us_per_shot": 2.755834850000838
+  }
+ ],
+ "d3_p0.005_hybrid_sweep": [
+  [
+   4,
+   0.99,
+   0.02755
+  ],
+  [
+   8,
+   0.985,
+   0.02705
+  ],
+  [
+   11,
+   0.813,
+   0.02175
+  ],
+  [
+   13,
+   0.719,
+   0.0186
+  ],
+  [
+   15,
+   0.684,
+   0.01805
+  ]
+ ],
+ "d3_p0.005": [
+  {
+   "decoder": "MWPM (exact, subset DP)",
+   "shots": 20000,
+   "errors": 361,
+   "logical_error_rate": 0.01805,
+   "ci95": [
+    0.016295293281858882,
+    0.019989817074143938
+   ],
+   "us_per_shot": 8.622647550004103
+  },
+  {
+   "decoder": "Union-Find",
+   "shots": 20000,
+   "errors": 464,
+   "logical_error_rate": 0.0232,
+   "ci95": [
+    0.02120340445657019,
+    0.025379727855375327
+   ],
+   "us_per_shot": 42.545604250000224
+  },
+  {
+   "decoder": "Belief propagation + UF fallback",
+   "shots": 20000,
+   "errors": 435,
+   "logical_error_rate": 0.02175,
+   "ci95": [
+    0.019818351417876336,
+    0.02386533781909502
+   ],
+   "us_per_shot": 198.25997125000185
+  },
+  {
+   "decoder": "Local matching (parallel rounds)",
+   "shots": 20000,
+   "errors": 422,
+   "logical_error_rate": 0.0211,
+   "ci95": [
+    0.019198212055096156,
+    0.023185726837921278
+   ],
+   "us_per_shot": 14.599827999995794
+  },
+  {
+   "decoder": "Greedy matching",
+   "shots": 20000,
+   "errors": 422,
+   "logical_error_rate": 0.0211,
+   "ci95": [
+    0.019198212055096156,
+    0.023185726837921278
+   ],
+   "us_per_shot": 2.686103000002049
+  },
+  {
+   "decoder": "Lookup table (weight <= 2)",
+   "shots": 20000,
+   "errors": 436,
+   "logical_error_rate": 0.0218,
+   "ci95": [
+    0.019866074183721095,
+    0.023917595848939033
+   ],
+   "us_per_shot": 9.237406900001588
+  },
+  {
+   "decoder": "Tsetlin machine (parity literals)",
+   "shots": 20000,
+   "errors": 808,
+   "logical_error_rate": 0.0404,
+   "ci95": [
+    0.0377582653930579,
+    0.04321826063582248
+   ],
+   "us_per_shot": 0.824144700004581
+  },
+  {
+   "decoder": "Clifford-clause TM (learned literals)",
+   "shots": 20000,
+   "errors": 1139,
+   "logical_error_rate": 0.05695,
+   "ci95": [
+    0.05382241591178437,
+    0.060247753490076925
+   ],
+   "us_per_shot": 12.859978450001108
+  },
+  {
+   "decoder": "Clifford-clause TM (cut literals)",
+   "shots": 20000,
+   "errors": 579,
+   "logical_error_rate": 0.02895,
+   "ci95": [
+    0.026715192107165532,
+    0.03136573170898786
+   ],
+   "us_per_shot": 2.24343685000008
+  },
+  {
+   "decoder": "Cut vote -> MWPM (exact, subset DP)",
+   "shots": 20000,
+   "errors": 500,
+   "logical_error_rate": 0.025,
+   "ci95": [
+    0.022925724683079234,
+    0.027256716273661802
+   ],
+   "us_per_shot": 3.0970559000024878
+  },
+  {
+   "decoder": "Clifford-clause -> MWPM (margin 13)",
+   "shots": 20000,
+   "errors": 372,
+   "logical_error_rate": 0.0186,
+   "ci95": [
+    0.01681785371123073,
+    0.02056704539734849
+   ],
+   "us_per_shot": 6.027847450002355
+  }
+ ],
+ "d5_p0.002_hybrid_sweep": [
+  [
+   4,
+   0.993,
+   0.00645
+  ],
+  [
+   8,
+   0.971,
+   0.0041
+  ],
+  [
+   11,
+   0.93,
+   0.0021
+  ],
+  [
+   13,
+   0.905,
+   0.0011
+  ],
+  [
+   15,
+   0.892,
+   0.00105
+  ]
+ ],
+ "d5_p0.002": [
+  {
+   "decoder": "MWPM (exact, subset DP)",
+   "shots": 20000,
+   "errors": 20,
+   "logical_error_rate": 0.001,
+   "ci95": [
+    0.0006474609539315652,
+    0.0015441980722026949
+   ],
+   "us_per_shot": 31.605610100001517
+  },
+  {
+   "decoder": "Union-Find",
+   "shots": 20000,
+   "errors": 44,
+   "logical_error_rate": 0.0022,
+   "ci95": [
+    0.0016393182227779873,
+    0.002951879899886612
+   ],
+   "us_per_shot": 183.7042920999977
+  },
+  {
+   "decoder": "Belief propagation + UF fallback",
+   "shots": 20000,
+   "errors": 39,
+   "logical_error_rate": 0.00195,
+   "ci95": [
+    0.0014268561643163652,
+    0.0026644379799044132
+   ],
+   "us_per_shot": 1905.1214969999992
+  },
+  {
+   "decoder": "Local matching (parallel rounds)",
+   "shots": 20000,
+   "errors": 141,
+   "logical_error_rate": 0.00705,
+   "ci95": [
+    0.005981344445334434,
+    0.008307990859140284
+   ],
+   "us_per_shot": 27.938889349996998
+  },
+  {
+   "decoder": "Greedy matching",
+   "shots": 20000,
+   "errors": 203,
+   "logical_error_rate": 0.01015,
+   "ci95": [
+    0.008851843016345574,
+    0.011636301620832517
+   ],
+   "us_per_shot": 7.924809349998441
+  },
+  {
+   "decoder": "Lookup table (weight <= 1)",
+   "shots": 20000,
+   "errors": 44,
+   "logical_error_rate": 0.0022,
+   "ci95": [
+    0.0016393182227779873,
+    0.002951879899886612
+   ],
+   "us_per_shot": 151.8243972499988
+  },
+  {
+   "decoder": "Tsetlin machine (parity literals)",
+   "shots": 20000,
+   "errors": 1176,
+   "logical_error_rate": 0.0588,
+   "ci95": [
+    0.05562354305067419,
+    0.06214591579167137
+   ],
+   "us_per_shot": 2.898446800003285
+  },
+  {
+   "decoder": "Clifford-clause TM (learned literals)",
+   "shots": 20000,
+   "errors": 1797,
+   "logical_error_rate": 0.08985,
+   "ci95": [
+    0.0859650675235841,
+    0.093892465441484
+   ],
+   "us_per_shot": 32.751316949998
+  },
+  {
+   "decoder": "Clifford-clause TM (cut literals)",
+   "shots": 20000,
+   "errors": 161,
+   "logical_error_rate": 0.00805,
+   "ci95": [
+    0.006902530432629407,
+    0.009386420785620594
+   ],
+   "us_per_shot": 7.280237750001106
+  },
+  {
+   "decoder": "Cut vote -> MWPM (exact, subset DP)",
+   "shots": 20000,
+   "errors": 22,
+   "logical_error_rate": 0.0011,
+   "ci95": [
+    0.0007265612632663787,
+    0.0016650593542454097
+   ],
+   "us_per_shot": 17.704113400003507
+  },
+  {
+   "decoder": "Clifford-clause -> MWPM (margin 13)",
+   "shots": 20000,
+   "errors": 22,
+   "logical_error_rate": 0.0011,
+   "ci95": [
+    0.0007265612632663787,
+    0.0016650593542454097
+   ],
+   "us_per_shot": 16.240229300001374
+  }
+ ],
+ "d5_p0.005_hybrid_sweep": [
+  [
+   4,
+   0.924,
+   0.0472
+  ],
+  [
+   8,
+   0.802,
+   0.02885
+  ],
+  [
+   11,
+   0.696,
+   0.0204
+  ],
+  [
+   13,
+   0.64,
+   0.0175
+  ],
+  [
+   15,
+   0.599,
+   0.01615
+  ]
+ ],
+ "d5_p0.005": [
+  {
+   "decoder": "MWPM (exact, subset DP)",
+   "shots": 20000,
+   "errors": 291,
+   "logical_error_rate": 0.01455,
+   "ci95": [
+    0.01298122172942101,
+    0.016305232928368326
+   ],
+   "us_per_shot": 308.9867164499992
+  },
+  {
+   "decoder": "Union-Find",
+   "shots": 20000,
+   "errors": 521,
+   "logical_error_rate": 0.02605,
+   "ci95": [
+    0.02393179123758954,
+    0.028350246428615535
+   ],
+   "us_per_shot": 297.1479628499992
+  },
+  {
+   "decoder": "Belief propagation + UF fallback",
+   "shots": 20000,
+   "errors": 497,
+   "logical_error_rate": 0.02485,
+   "ci95": [
+    0.022782081197065547,
+    0.027100417372609195
+   ],
+   "us_per_shot": 2006.2194133500043
+  },
+  {
+   "decoder": "Local matching (parallel rounds)",
+   "shots": 20000,
+   "errors": 806,
+   "logical_error_rate": 0.0403,
+   "ci95": [
+    0.03766151932479394,
+    0.04311504511270891
+   ],
+   "us_per_shot": 59.200017250003604
+  },
+  {
+   "decoder": "Greedy matching",
+   "shots": 20000,
+   "errors": 1121,
+   "logical_error_rate": 0.05605,
+   "ci95": [
+    0.052946533316173536,
+    0.05932398176329001
+   ],
+   "us_per_shot": 30.959178899996687
+  },
+  {
+   "decoder": "Lookup table (weight <= 1)",
+   "shots": 20000,
+   "errors": 521,
+   "logical_error_rate": 0.02605,
+   "ci95": [
+    0.02393179123758954,
+    0.028350246428615535
+   ],
+   "us_per_shot": 307.289494150001
+  },
+  {
+   "decoder": "Tsetlin machine (parity literals)",
+   "shots": 20000,
+   "errors": 3797,
+   "logical_error_rate": 0.18985,
+   "ci95": [
+    0.18447438799617946,
+    0.19534473634641683
+   ],
+   "us_per_shot": 3.2944890000010214
+  },
+  {
+   "decoder": "Clifford-clause TM (learned literals)",
+   "shots": 20000,
+   "errors": 4413,
+   "logical_error_rate": 0.22065,
+   "ci95": [
+    0.21495670904451689,
+    0.2264505854423581
+   ],
+   "us_per_shot": 33.36066575000132
+  },
+  {
+   "decoder": "Clifford-clause TM (cut literals)",
+   "shots": 20000,
+   "errors": 1443,
+   "logical_error_rate": 0.07215,
+   "ci95": [
+    0.06864566905377234,
+    0.07581866223747327
+   ],
+   "us_per_shot": 7.432277899999916
+  },
+  {
+   "decoder": "Cut vote -> MWPM (exact, subset DP)",
+   "shots": 20000,
+   "errors": 351,
+   "logical_error_rate": 0.01755,
+   "ci95": [
+    0.015820621806829475,
+    0.0194646805922857
+   ],
+   "us_per_shot": 264.8385376500016
+  },
+  {
+   "decoder": "Clifford-clause -> MWPM (margin 13)",
+   "shots": 20000,
+   "errors": 350,
+   "logical_error_rate": 0.0175,
+   "ci95": [
+    0.015773175355963145,
+    0.019412146247463274
+   ],
+   "us_per_shot": 233.34334255000044
+  }
+ ],
+ "parallel": {
+  "serial_s": 6.888716552000005,
+  "two_process_s": 3.8700461239999413
+ }
+}

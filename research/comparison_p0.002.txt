@@ -1,0 +1,46 @@
+d=3 p=0.002  (24 detectors, 8 parity bits, 30000 training shots)
+  no decoding                                0.0440
+  MWPM (PyMatching, knows the noise model)   0.0031
+  -- features: parity bits
+     logistic regression                     0.0085  (0s)
+     decision tree, <=16 leaves (readable)   0.0050  (0s)  leaves 16
+     decision tree, unlimited                0.0052  (0s)  leaves 105
+     gradient-boosted trees                  0.0051  (7s)
+     MLP 2x128                               0.0050  (8s)
+     Tsetlin machine (ours)                  0.0072  rules 25
+  -- features: raw detectors
+     logistic regression                     0.0532  (0s)
+     decision tree, <=16 leaves (readable)   0.0265  (0s)  leaves 16
+     decision tree, unlimited                0.0068  (0s)  leaves 353
+     gradient-boosted trees                  0.0058  (2s)
+     MLP 2x128                               0.0061  (15s)
+     Tsetlin machine (ours)                  0.0316  rules 271
+  -- features: both
+     logistic regression                     0.0117  (0s)
+     decision tree, <=16 leaves (readable)   0.0046  (0s)  leaves 16
+     decision tree, unlimited                0.0055  (0s)  leaves 266
+     gradient-boosted trees                  0.0046  (4s)
+     MLP 2x128                               0.0053  (11s)
+d=5 p=0.002  (120 detectors, 24 parity bits, 30000 training shots)
+  no decoding                                0.1077
+  MWPM (PyMatching, knows the noise model)   0.0010
+  -- features: parity bits
+     logistic regression                     0.0694  (0s)
+     decision tree, <=16 leaves (readable)   0.0287  (0s)  leaves 16
+     decision tree, unlimited                0.0140  (0s)  leaves 590
+     gradient-boosted trees                  0.0180  (8s)
+     MLP 2x128                               0.0110  (15s)
+     Tsetlin machine (ours)                  0.0670  rules 31
+  -- features: raw detectors
+     logistic regression                     0.1173  (0s)
+     decision tree, <=16 leaves (readable)   0.1035  (0s)  leaves 16
+     decision tree, unlimited                0.0369  (0s)  leaves 1044
+     gradient-boosted trees                  0.0239  (7s)
+     MLP 2x128                               0.0375  (11s)
+     Tsetlin machine (ours)                  0.1087  rules 270
+  -- features: both
+     logistic regression                     0.0627  (0s)
+     decision tree, <=16 leaves (readable)   0.0284  (0s)  leaves 16
+     decision tree, unlimited                0.0181  (0s)  leaves 505
+     gradient-boosted trees                  0.0201  (2s)
+     MLP 2x128                               0.0234  (10s)

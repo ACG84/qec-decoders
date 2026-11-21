@@ -1,0 +1,13 @@
+A. Copies needed to recover the code's stabilizer group exactly (30 trials each; 4 copies per sample)
+   p=0.0: 8 samples: 0.10  16 samples: 0.80  32 samples: 1.00  64 samples: 1.00  128 samples: 1.00  256 samples: 1.00
+   p=0.01: 8 samples: 0.00  16 samples: 0.10  32 samples: 0.17  64 samples: 0.47  128 samples: 0.70  256 samples: 0.97
+   p=0.03: 8 samples: 0.00  16 samples: 0.00  32 samples: 0.00  64 samples: 0.00  128 samples: 0.00  256 samples: 0.00
+B. Classification from the learned clause (256 Bell-difference samples; 3000 test shots per class)
+   p=0.0: learned 15 elements, passes group certificate=True, equals true group=True, generators ['IXZZX', 'IYXXY', 'XIXZZ', 'YIYXX']
+      entangling Clifford clause, 1 copy  misses code state 0.000 | accepts random state 0.063 | balanced error 0.032
+      product-basis clause, 4 copies      misses code state 0.000 | accepts random state 0.062 | balanced error 0.031
+   p=0.01: learned 15 elements, passes group certificate=True, equals true group=True, generators ['IXZZX', 'IYXXY', 'XIXZZ', 'YIYXX']
+      entangling Clifford clause, 1 copy  misses code state 0.082 | accepts random state 0.068 | balanced error 0.075
+      product-basis clause, 4 copies      misses code state 0.238 | accepts random state 0.069 | balanced error 0.154
+   p=0.03: learned 2 elements, passes group certificate=False, equals true group=False, generators ['IZYYZ', 'ZZXIX']
+      learner output rejected by the certificate; no clause built

@@ -1,0 +1,9786 @@
+{
+ "0.002": {
+  "errors": {
+   "no decoding": 0.04396,
+   "MWPM (PyMatching)": 0.00312,
+   "lookup table on parities": 0.0054,
+   "TM on raw detectors": 0.03164,
+   "TM on raw detectors | clauses": 300,
+   "TM on raw detectors | mean literals": 5.886666666666667,
+   "TM on stabilizer parities": 0.00717,
+   "TM on stabilizer parities | clauses": 36,
+   "TM on stabilizer parities | mean literals": 2.611111111111111
+  },
+  "rules": {
+   "TM on raw detectors": [
+    [
+     1,
+     [
+      "D[x2,y4,t2]",
+      "D[x6,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x2,y2,t1]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x4,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x2,y4,t2]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x4,y6,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y2,t2]",
+      "D[x0,y4,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x4,y2,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x2,y4,t2]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y0,t2]",
+      "D[x4,y4,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x2,y0,t2]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x4,y4,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t1]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t1]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x4,y6,t2]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y2,t0]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x6,y2,t0]",
+      "D[x6,y2,t1]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t1]",
+      "D[x4,y6,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "NOT D[x2,y2,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x2,y4,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x2,y4,t2]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y2,t0]",
+      "D[x0,y4,t1]",
+      "D[x6,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t1]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x2,y4,t2]",
+      "NOT D[x4,y6,t2]",
+      "NOT D[x2,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y2,t0]",
+      "D[x6,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x4,y2,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y6,t1]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x2,y4,t2]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y4,t2]",
+      "D[x4,y4,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x2,y4,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t1]",
+      "D[x4,y6,t1]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x2,y0,t1]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x4,y2,t1]",
+      "NOT D[x2,y4,t1]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y2,t1]",
+      "D[x4,y4,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x2,y0,t2]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x2,y4,t1]",
+      "NOT D[x2,y2,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y0,t1]",
+      "D[x2,y2,t1]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x2,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y4,t2]",
+      "D[x4,y6,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "NOT D[x2,y2,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x2,y4,t2]",
+      "NOT D[x4,y6,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y2,t0]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x4,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x2,y4,t1]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x2,y4,t2]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x4,y6,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x6,y2,t1]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x4,y2,t1]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x2,y4,t2]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x4,y6,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x4,y4,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t3]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x2,y4,t2]",
+      "NOT D[x4,y4,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t1]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y0,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x6,y2,t2]",
+      "D[x6,y2,t3]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x4,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x2,y4,t1]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x2,y4,t2]",
+      "NOT D[x4,y6,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y4,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t2]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x4,y2,t1]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t0]",
+      "D[x0,y4,t1]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t2]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x4,y2,t1]",
+      "NOT D[x2,y0,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y0,t1]",
+      "D[x4,y4,t1]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y6,t1]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x0,y4,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t1]",
+      "D[x2,y0,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x6,y2,t2]",
+      "D[x6,y2,t3]",
+      "NOT D[x4,y2,t1]",
+      "NOT D[x0,y4,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t0]",
+      "D[x2,y0,t1]",
+      "D[x4,y2,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t3]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x2,y4,t2]",
+      "NOT D[x4,y6,t2]",
+      "NOT D[x0,y4,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t1]",
+      "D[x2,y2,t2]",
+      "D[x2,y4,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t0]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x4,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x4,y4,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t1]",
+      "D[x0,y4,t2]",
+      "D[x4,y4,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t1]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x4,y6,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y0,t1]",
+      "D[x0,y4,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x2,y2,t0]",
+      "D[x2,y2,t1]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x2,y4,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y4,t1]",
+      "D[x2,y0,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x4,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x2,y4,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y6,t2]",
+      "D[x6,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x2,y4,t1]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x2,y4,t2]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x4,y6,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t1]",
+      "D[x4,y4,t2]",
+      "D[x0,y4,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x4,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y0,t1]",
+      "D[x4,y4,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t1]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x4,y4,t1]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y4,t0]",
+      "D[x6,y2,t1]",
+      "D[x4,y6,t2]",
+      "D[x2,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t1]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x4,y6,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t0]",
+      "D[x4,y2,t1]",
+      "D[x0,y4,t3]",
+      "D[x6,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x2,y2,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x4,y6,t2]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x4,y4,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t0]",
+      "D[x6,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "NOT D[x2,y2,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x4,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y2,t1]",
+      "D[x0,y4,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x6,y2,t0]",
+      "D[x6,y2,t1]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x2,y4,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x2,y4,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x4,y4,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t0]",
+      "D[x4,y6,t1]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t2]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t1]",
+      "D[x4,y4,t1]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y6,t1]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x2,y0,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y0,t2]",
+      "D[x6,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y6,t2]",
+      "NOT D[x2,y2,t1]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t0]",
+      "D[x2,y0,t2]",
+      "D[x4,y2,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "NOT D[x2,y2,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t0]",
+      "D[x4,y6,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t3]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x4,y2,t1]",
+      "NOT D[x6,y2,t1]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y6,t1]",
+      "D[x2,y2,t3]",
+      "D[x6,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y2,t1]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x2,y4,t2]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x2,y2,t2]",
+      "D[x2,y2,t3]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x4,y4,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y2,t1]",
+      "D[x0,y4,t3]",
+      "D[x6,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x6,y2,t1]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y2,t1]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x4,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x2,y4,t1]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x2,y4,t2]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x4,y6,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "NOT D[x2,y2,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x4,y2,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x2,y4,t2]",
+      "NOT D[x4,y6,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y2,t1]",
+      "D[x6,y2,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t1]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x4,y4,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t2]",
+      "NOT D[x4,y2,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y2,t2]",
+      "D[x6,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y6,t1]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y0,t1]",
+      "D[x0,y4,t1]",
+      "D[x2,y2,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y2,t1]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y0,t2]",
+      "D[x4,y6,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t1]",
+      "NOT D[x4,y6,t2]",
+      "NOT D[x2,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t0]",
+      "D[x4,y4,t2]",
+      "D[x4,y6,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t0]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x4,y4,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y0,t1]",
+      "D[x2,y2,t1]",
+      "D[x4,y6,t1]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x2,y4,t2]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y0,t1]",
+      "D[x0,y4,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y0,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x6,y2,t2]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x4,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x2,y4,t1]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x2,y4,t2]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y2,t1]",
+      "D[x0,y4,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "NOT D[x2,y2,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x4,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x4,y6,t2]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y6,t2]",
+      "D[x4,y4,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y6,t2]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x4,y4,t1]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y4,t1]",
+      "D[x6,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y4,t1]",
+      "D[x2,y0,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t2]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y4,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x0,y4,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y4,t0]",
+      "D[x6,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x6,y2,t0]",
+      "D[x6,y2,t1]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x0,y4,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y6,t1]",
+      "D[x2,y0,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x6,y2,t1]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x4,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x2,y4,t2]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y0,t1]",
+      "D[x4,y4,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t3]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x4,y6,t2]",
+      "NOT D[x4,y4,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y4,t0]",
+      "D[x2,y0,t1]",
+      "D[x4,y4,t1]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t0]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x2,y4,t1]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x2,y4,t2]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x4,y6,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y2,t1]",
+      "D[x4,y6,t1]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x6,y2,t2]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x2,y4,t2]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x4,y6,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t3]",
+      "D[x6,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x2,y4,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x4,y6,t2]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x4,y4,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y0,t1]",
+      "D[x2,y2,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x0,y4,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x4,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x2,y4,t1]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x2,y4,t2]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x4,y6,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x2,y4,t1]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t0]",
+      "D[x2,y0,t2]",
+      "D[x4,y4,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t2]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y4,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y6,t2]",
+      "D[x4,y4,t3]",
+      "D[x6,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t1]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x4,y6,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y2,t1]",
+      "D[x4,y6,t1]",
+      "D[x2,y0,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x2,y2,t1]",
+      "D[x2,y2,t2]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x2,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t0]",
+      "D[x6,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t3]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x4,y4,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t0]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t1]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x4,y6,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t0]",
+      "D[x4,y4,t1]",
+      "D[x4,y6,t1]",
+      "D[x4,y4,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t0]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x2,y4,t1]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x2,y4,t2]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x4,y6,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t1]",
+      "D[x2,y4,t1]",
+      "D[x0,y4,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x2,y2,t2]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x4,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x2,y4,t1]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x2,y4,t2]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x4,y6,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y2,t0]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x4,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x2,y4,t1]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x2,y4,t2]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x4,y6,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x2,y4,t1]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x4,y6,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y2,t0]",
+      "D[x2,y0,t2]",
+      "D[x0,y4,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x4,y6,t2]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t1]",
+      "D[x6,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t1]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y4,t2]",
+      "D[x4,y4,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x6,y2,t1]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x4,y2,t1]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t2]",
+      "D[x2,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x2,y2,t0]",
+      "D[x2,y2,t1]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x4,y2,t1]",
+      "NOT D[x2,y4,t1]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x2,y4,t2]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x4,y6,t2]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y0,t1]",
+      "D[x4,y6,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x6,y2,t2]",
+      "D[x6,y2,t3]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x4,y2,t1]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x2,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y2,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x4,y6,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t0]",
+      "D[x2,y4,t1]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x2,y4,t1]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y6,t2]",
+      "D[x4,y4,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t2]",
+      "NOT D[x2,y2,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y6,t1]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t2]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x4,y2,t1]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x2,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y4,t0]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t0]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x2,y4,t2]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y0,t1]",
+      "D[x4,y6,t1]",
+      "D[x2,y4,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x2,y2,t2]",
+      "D[x2,y2,t3]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x4,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x2,y4,t1]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x4,y6,t2]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t0]",
+      "D[x0,y4,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t3]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x4,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x2,y4,t1]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x2,y4,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t0]",
+      "D[x2,y4,t2]",
+      "D[x4,y6,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y2,t1]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x4,y6,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y4,t1]",
+      "D[x2,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "NOT D[x2,y2,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x2,y4,t1]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x2,y4,t2]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x4,y6,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y0,t2]",
+      "D[x6,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t0]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x4,y6,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y4,t1]",
+      "D[x4,y6,t1]",
+      "D[x2,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x2,y4,t1]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x4,y4,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y6,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t3]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x4,y4,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t0]",
+      "D[x0,y4,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t0]",
+      "D[x2,y0,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t3]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x0,y4,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t0]",
+      "D[x2,y0,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t1]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x4,y6,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t1]",
+      "D[x2,y4,t1]",
+      "D[x6,y2,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t2]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x4,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y4,t1]",
+      "D[x2,y4,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x2,y4,t2]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x4,y6,t1]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y4,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t2]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t1]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t2]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x4,y2,t1]",
+      "NOT D[x2,y4,t1]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t2]",
+      "D[x4,y6,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x2,y4,t2]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x2,y0,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t1]",
+      "D[x2,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t3]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x2,y4,t2]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x0,y4,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t0]",
+      "D[x6,y2,t0]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y6,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y6,t1]",
+      "D[x4,y4,t2]",
+      "D[x6,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "NOT D[x2,y2,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t0]",
+      "D[x2,y2,t1]",
+      "D[x6,y2,t2]",
+      "D[x4,y6,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t2]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x4,y4,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x2,y4,t1]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x2,y4,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y6,t1]",
+      "D[x0,y4,t2]",
+      "D[x2,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x2,y4,t2]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x4,y6,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y2,t0]",
+      "D[x4,y2,t2]",
+      "D[x6,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t3]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x4,y6,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t0]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x2,y4,t2]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t1]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x4,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x2,y4,t1]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x2,y4,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t0]",
+      "D[x2,y0,t2]",
+      "D[x4,y2,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x6,y2,t2]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x4,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x2,y4,t1]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x2,y4,t2]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y2,t1]",
+      "D[x4,y6,t1]",
+      "D[x6,y2,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x2,y2,t0]",
+      "D[x2,y2,t1]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x4,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x2,y4,t2]",
+      "NOT D[x4,y6,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y4,t1]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "NOT D[x4,y4,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x4,y6,t2]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y4,t1]",
+      "D[x6,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t3]",
+      "NOT D[x4,y2,t1]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t1]",
+      "D[x2,y4,t1]",
+      "D[x6,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "NOT D[x2,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y6,t1]",
+      "D[x6,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y6,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y2,t2]",
+      "D[x4,y6,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x2,y0,t2]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x2,y4,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y0,t1]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t3]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x4,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x2,y4,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t2]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y2,t1]",
+      "D[x4,y6,t2]",
+      "D[x2,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x2,y2,t1]",
+      "D[x2,y2,t2]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x4,y6,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y4,t0]",
+      "D[x0,y4,t1]",
+      "D[x4,y4,t2]",
+      "D[x4,y6,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y2,t2]",
+      "NOT D[x4,y6,t2]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x4,y4,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y2,t0]",
+      "D[x4,y6,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t3]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x4,y6,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y6,t2]",
+      "D[x6,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x6,y2,t2]",
+      "D[x6,y2,t3]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x4,y2,t1]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x4,y2,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t1]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x4,y2,t1]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x2,y4,t2]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x4,y6,t2]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t2]",
+      "D[x4,y4,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t2]",
+      "NOT D[x4,y6,t1]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y6,t1]",
+      "D[x2,y0,t2]",
+      "D[x6,y2,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t0]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x4,y6,t2]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t0]",
+      "D[x0,y4,t1]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t1]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t0]",
+      "D[x0,y4,t1]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x2,y4,t1]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x2,y4,t2]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y2,t0]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x4,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x2,y4,t1]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x2,y4,t2]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x4,y6,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x2,y4,t1]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x2,y4,t2]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y6,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t2]",
+      "NOT D[x4,y4,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t0]",
+      "D[x4,y2,t1]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x2,y4,t1]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "NOT D[x2,y2,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x4,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x2,y4,t2]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t1]",
+      "D[x2,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x2,y4,t2]",
+      "NOT D[x4,y6,t2]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y0,t2]",
+      "D[x2,y2,t2]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t3]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x6,y2,t1]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t1]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x6,y2,t0]",
+      "D[x6,y2,t1]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x4,y6,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t0]",
+      "D[x2,y4,t2]",
+      "D[x0,y4,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "NOT D[x2,y2,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x4,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x2,y4,t2]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y2,t1]",
+      "D[x2,y0,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x2,y4,t1]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x2,y4,t2]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y6,t1]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x2,y2,t1]",
+      "NOT D[x4,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x2,y4,t1]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x4,y6,t2]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t0]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x4,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x4,y6,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t0]",
+      "D[x6,y2,t0]",
+      "D[x2,y4,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y6,t2]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x4,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y2,t1]",
+      "D[x0,y4,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x2,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t0]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t2]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x2,y4,t2]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x4,y4,t1]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t0]",
+      "D[x4,y6,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t2]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x0,y4,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t1]",
+      "D[x4,y6,t1]",
+      "D[x2,y2,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x6,y2,t0]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t0]",
+      "D[x2,y2,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t2]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t1]",
+      "D[x4,y2,t2]",
+      "D[x4,y6,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t0]",
+      "D[x4,y2,t1]",
+      "D[x2,y0,t2]",
+      "D[x2,y2,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t3]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x6,y2,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y2,t0]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x4,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x2,y4,t1]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x2,y4,t2]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x4,y6,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t1]",
+      "NOT D[x2,y4,t2]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t1]",
+      "D[x2,y4,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t2]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y2,t1]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y2,t0]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x6,y2,t2]",
+      "D[x6,y2,t3]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x2,y4,t2]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x4,y4,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x2,y2,t0]",
+      "D[x2,y2,t1]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x4,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x2,y4,t1]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x4,y6,t2]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x4,y4,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y4,t1]",
+      "D[x0,y4,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t1]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t2]",
+      "D[x4,y6,t2]",
+      "D[x6,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y2,t1]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x4,y4,t3]"
+     ]
+    ]
+   ],
+   "TM on stabilizer parities": [
+    [
+     -1,
+     [
+      "S[x0,y4]",
+      "NOT S[x4,y6]",
+      "NOT S[x6,y2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "S[x2,y0]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "S[x0,y4]",
+      "NOT S[x2,y0]",
+      "NOT S[x4,y2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "S[x0,y4]",
+      "S[x4,y6]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "NOT S[x0,y4]",
+      "NOT S[x2,y2]",
+      "NOT S[x6,y2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "S[x2,y0]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "S[x2,y4]"
+     ]
+    ],
+    [
+     1,
+     [
+      "S[x6,y2]",
+      "NOT S[x2,y2]",
+      "NOT S[x4,y4]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "S[x2,y0]"
+     ]
+    ],
+    [
+     1,
+     [
+      "S[x2,y4]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "S[x4,y4]",
+      "NOT S[x0,y4]"
+     ]
+    ],
+    [
+     1,
+     [
+      "S[x2,y0]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "S[x0,y4]",
+      "NOT S[x6,y2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "S[x2,y0]",
+      "S[x2,y2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "S[x4,y4]",
+      "NOT S[x0,y4]"
+     ]
+    ],
+    [
+     1,
+     [
+      "S[x2,y0]",
+      "S[x6,y2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "S[x2,y4]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "NOT S[x2,y2]",
+      "NOT S[x2,y4]",
+      "NOT S[x6,y2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "S[x2,y0]",
+      "S[x4,y4]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "S[x4,y4]",
+      "NOT S[x0,y4]",
+      "NOT S[x2,y0]"
+     ]
+    ],
+    [
+     1,
+     [
+      "S[x2,y2]",
+      "NOT S[x0,y4]",
+      "NOT S[x2,y0]",
+      "NOT S[x2,y4]",
+      "NOT S[x4,y4]",
+      "NOT S[x4,y6]",
+      "NOT S[x6,y2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "S[x4,y4]",
+      "NOT S[x0,y4]",
+      "NOT S[x2,y0]"
+     ]
+    ],
+    [
+     1,
+     [
+      "S[x2,y4]",
+      "S[x4,y6]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "S[x0,y4]",
+      "S[x2,y2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "S[x0,y4]",
+      "S[x4,y4]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "NOT S[x2,y2]",
+      "NOT S[x4,y4]",
+      "NOT S[x6,y2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "S[x2,y2]",
+      "NOT S[x0,y4]",
+      "NOT S[x2,y0]",
+      "NOT S[x2,y4]",
+      "NOT S[x4,y4]",
+      "NOT S[x4,y6]",
+      "NOT S[x6,y2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "NOT S[x0,y4]",
+      "NOT S[x2,y2]",
+      "NOT S[x4,y4]",
+      "NOT S[x6,y2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "S[x6,y2]",
+      "NOT S[x2,y2]",
+      "NOT S[x4,y4]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "NOT S[x2,y2]",
+      "NOT S[x4,y4]",
+      "NOT S[x6,y2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "S[x2,y4]",
+      "S[x4,y6]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "NOT S[x2,y2]",
+      "NOT S[x4,y4]",
+      "NOT S[x6,y2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "S[x2,y0]",
+      "S[x6,y2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "NOT S[x2,y2]",
+      "NOT S[x6,y2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "S[x2,y2]",
+      "NOT S[x0,y4]",
+      "NOT S[x2,y4]",
+      "NOT S[x4,y2]",
+      "NOT S[x4,y4]",
+      "NOT S[x4,y6]",
+      "NOT S[x6,y2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "S[x4,y4]",
+      "NOT S[x2,y0]",
+      "NOT S[x2,y4]"
+     ]
+    ]
+   ]
+  },
+  "se": 0.00017663521732655694
+ },
+ "0.005": {
+  "errors": {
+   "no decoding": 0.10444,
+   "MWPM (PyMatching)": 0.0171,
+   "lookup table on parities": 0.02628,
+   "TM on raw detectors": 0.07107,
+   "TM on raw detectors | clauses": 299,
+   "TM on raw detectors | mean literals": 4.511705685618729,
+   "TM on stabilizer parities": 0.04013,
+   "TM on stabilizer parities | clauses": 39,
+   "TM on stabilizer parities | mean literals": 2.0
+  },
+  "rules": {
+   "TM on raw detectors": [
+    [
+     1,
+     [
+      "D[x4,y6,t1]",
+      "D[x6,y2,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x2,y4,t1]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x2,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y4,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t1]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x0,y4,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y0,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t2]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x4,y2,t1]",
+      "NOT D[x2,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t0]",
+      "D[x2,y0,t2]",
+      "D[x6,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t3]",
+      "NOT D[x2,y0,t1]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y0,t1]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t0]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x4,y6,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y4,t0]",
+      "D[x2,y0,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x2,y4,t2]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y4,t1]",
+      "D[x0,y4,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y0,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t3]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x2,y4,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x6,y2,t2]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x4,y6,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y2,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y6,t2]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x0,y4,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t0]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t3]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x4,y4,t1]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y4,t1]",
+      "D[x4,y6,t1]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x6,y2,t1]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x2,y4,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x4,y6,t2]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y0,t1]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x2,y4,t2]",
+      "NOT D[x4,y6,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t0]",
+      "D[x4,y6,t1]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t2]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x4,y6,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y4,t0]",
+      "D[x0,y4,t2]",
+      "D[x0,y4,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t0]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x4,y6,t2]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y2,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t0]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t2]",
+      "D[x0,y4,t3]",
+      "D[x4,y4,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y0,t1]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "NOT D[x2,y2,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x4,y6,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y2,t2]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x2,y4,t1]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x2,y4,t2]",
+      "NOT D[x4,y6,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y6,t2]",
+      "NOT D[x2,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t1]",
+      "D[x0,y4,t1]",
+      "D[x4,y4,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x2,y2,t1]",
+      "D[x2,y2,t2]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x4,y6,t2]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t0]",
+      "D[x4,y6,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t0]",
+      "NOT D[x2,y4,t2]",
+      "NOT D[x4,y6,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t1]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x4,y4,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y6,t1]",
+      "D[x4,y6,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t2]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t0]",
+      "D[x0,y4,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t3]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x6,y2,t2]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x2,y4,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x4,y4,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t2]",
+      "D[x4,y4,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t3]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x2,y2,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t1]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t2]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x6,y2,t1]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y0,t2]",
+      "D[x4,y2,t2]",
+      "D[x4,y4,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t1]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y0,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y2,t2]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y6,t1]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t2]",
+      "NOT D[x4,y6,t2]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t0]",
+      "D[x2,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t1]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x2,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y2,t0]",
+      "D[x0,y4,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t0]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x2,y4,t1]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t2]",
+      "D[x0,y4,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t1]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x4,y6,t2]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y6,t1]",
+      "D[x0,y4,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t1]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x4,y6,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y0,t1]",
+      "D[x2,y4,t1]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "NOT D[x2,y2,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x2,y4,t1]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y0,t2]",
+      "D[x4,y6,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y2,t1]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x2,y4,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y4,t0]",
+      "D[x2,y4,t2]",
+      "D[x4,y4,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x2,y4,t2]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x4,y4,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t0]",
+      "D[x4,y6,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t0]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x2,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y0,t1]",
+      "D[x4,y4,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x2,y4,t1]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x2,y2,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t0]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x4,y4,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y4,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "NOT D[x2,y2,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x4,y6,t2]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x6,y2,t2]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x4,y6,t2]",
+      "NOT D[x4,y4,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y4,t1]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x2,y0,t1]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x0,y4,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t2]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x2,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y0,t1]",
+      "D[x0,y4,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t2]",
+      "NOT D[x2,y2,t0]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "NOT D[x2,y2,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x2,y4,t1]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t3]",
+      "D[x4,y4,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t0]",
+      "D[x4,y2,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t1]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x2,y2,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "NOT D[x2,y2,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x4,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t0]",
+      "D[x2,y0,t2]",
+      "D[x4,y6,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y6,t2]",
+      "NOT D[x4,y2,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y0,t2]",
+      "D[x2,y2,t2]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x0,y4,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t3]",
+      "NOT D[x0,y4,t0]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y0,t1]",
+      "D[x2,y2,t2]",
+      "D[x4,y4,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x6,y2,t2]",
+      "D[x6,y2,t3]",
+      "NOT D[x2,y0,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t0]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x2,y4,t1]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y0,t2]",
+      "D[x4,y4,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t1]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x4,y4,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t1]",
+      "D[x4,y6,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x2,y2,t2]",
+      "D[x2,y2,t3]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x4,y2,t1]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x6,y2,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t0]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "NOT D[x2,y2,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x2,y4,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t0]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x2,y4,t2]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x2,y4,t1]",
+      "NOT D[x0,y4,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y2,t0]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x4,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x2,y4,t1]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x2,y4,t2]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x4,y6,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x2,y0,t2]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x2,y2,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t2]",
+      "D[x4,y6,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x2,y4,t2]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x4,y4,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x6,y2,t1]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x4,y2,t1]",
+      "NOT D[x2,y4,t1]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x4,y6,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t0]",
+      "D[x2,y0,t1]",
+      "D[x2,y4,t2]",
+      "D[x4,y6,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t3]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x4,y2,t1]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t0]",
+      "D[x0,y4,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x2,y2,t1]",
+      "D[x2,y2,t2]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x4,y6,t2]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t0]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t1]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x4,y2,t1]",
+      "NOT D[x6,y2,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t1]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y2,t0]",
+      "D[x2,y4,t1]",
+      "D[x4,y6,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t3]",
+      "NOT D[x2,y2,t0]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y2,t1]",
+      "D[x6,y2,t1]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t0]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x4,y6,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x4,y4,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y2,t0]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x4,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x2,y4,t1]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x2,y4,t2]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x4,y6,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t2]",
+      "NOT D[x4,y2,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y2,t0]",
+      "D[x2,y4,t1]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x2,y4,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y0,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y6,t2]",
+      "NOT D[x2,y2,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t0]",
+      "D[x0,y4,t1]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x2,y2,t0]",
+      "D[x2,y2,t1]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y0,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "NOT D[x2,y2,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x2,y4,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x2,y4,t2]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t1]",
+      "D[x0,y4,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x2,y2,t2]",
+      "D[x2,y2,t3]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x2,y4,t1]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t0]",
+      "D[x6,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x6,y2,t1]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x4,y4,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t2]",
+      "D[x0,y4,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x6,y2,t0]",
+      "D[x6,y2,t1]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x4,y4,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t0]",
+      "D[x4,y4,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y2,t2]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y4,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y6,t1]",
+      "NOT D[x2,y4,t1]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y2,t0]",
+      "D[x6,y2,t0]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x4,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t1]",
+      "D[x2,y0,t2]",
+      "D[x4,y4,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t1]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x4,y6,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y2,t0]",
+      "D[x6,y2,t0]",
+      "D[x4,y6,t2]",
+      "D[x6,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t3]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x4,y6,t2]",
+      "NOT D[x0,y4,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t0]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x2,y4,t2]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x4,y2,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x0,y4,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t2]",
+      "D[x2,y2,t3]",
+      "D[x4,y4,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x6,y2,t2]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x0,y4,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t1]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x4,y4,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t0]",
+      "D[x4,y6,t1]",
+      "D[x2,y4,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t3]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x2,y2,t1]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y2,t0]",
+      "D[x2,y4,t1]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x2,y4,t1]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x4,y4,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y0,t1]",
+      "D[x0,y4,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "NOT D[x2,y2,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y0,t2]",
+      "D[x4,y4,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x2,y2,t0]",
+      "D[x2,y2,t1]",
+      "NOT D[x4,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x2,y4,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y4,t1]",
+      "D[x4,y6,t1]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t3]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y0,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x2,y2,t2]",
+      "D[x2,y2,t3]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x0,y4,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y0,t1]",
+      "D[x6,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t1]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y4,t1]",
+      "D[x4,y6,t1]",
+      "D[x0,y4,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t3]",
+      "NOT D[x4,y2,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t0]",
+      "D[x4,y6,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y2,t2]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x2,y2,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t1]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t3]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x4,y6,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y6,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t0]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x4,y6,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x4,y4,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y4,t1]",
+      "D[x4,y6,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x2,y4,t1]",
+      "NOT D[x4,y2,t1]",
+      "NOT D[x0,y4,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t1]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "NOT D[x2,y2,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x4,y4,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t1]",
+      "D[x4,y6,t1]",
+      "D[x2,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y6,t2]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t0]",
+      "D[x2,y0,t1]",
+      "D[x0,y4,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t3]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x2,y4,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y6,t1]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t2]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x4,y2,t1]",
+      "NOT D[x2,y4,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y2,t0]",
+      "D[x2,y4,t1]",
+      "D[x2,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y6,t2]",
+      "NOT D[x4,y2,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y6,t1]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y6,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t0]",
+      "D[x6,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y6,t1]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x4,y4,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x6,y2,t1]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x4,y6,t2]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y6,t1]",
+      "D[x6,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t3]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y2,t0]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t1]",
+      "D[x4,y6,t1]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "NOT D[x2,y2,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x4,y6,t2]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y2,t0]",
+      "D[x2,y0,t1]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x2,y4,t1]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x4,y6,t2]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y4,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t0]",
+      "D[x2,y0,t1]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t2]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y6,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t2]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x4,y6,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t0]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t3]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x4,y2,t1]",
+      "NOT D[x6,y2,t1]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y0,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t2]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x4,y2,t1]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t1]",
+      "D[x6,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x2,y4,t2]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y2,t1]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x4,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t2]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x4,y4,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t0]",
+      "D[x2,y0,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y6,t1]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t0]",
+      "D[x0,y4,t1]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t3]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x4,y2,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t0]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x2,y4,t2]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x4,y2,t1]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x4,y6,t1]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t0]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x2,y2,t0]",
+      "D[x2,y2,t1]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t1]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x4,y6,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y2,t0]",
+      "D[x4,y6,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t3]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x0,y4,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t0]",
+      "D[x0,y4,t1]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t3]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x0,y4,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y2,t3]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x2,y4,t2]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x4,y6,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t2]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x4,y2,t1]",
+      "NOT D[x2,y4,t1]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t1]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x2,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y2,t0]",
+      "D[x4,y6,t2]",
+      "D[x6,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t2]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x6,y2,t0]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x2,y2,t2]",
+      "D[x2,y2,t3]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x2,y0,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t0]",
+      "D[x0,y4,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y6,t1]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x2,y4,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y6,t1]",
+      "D[x0,y4,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t3]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x2,y4,t1]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x4,y6,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t0]",
+      "D[x0,y4,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x6,y2,t3]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y4,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x4,y2,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y6,t2]",
+      "D[x2,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x2,y4,t1]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x4,y6,t2]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y2,t0]",
+      "D[x2,y4,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t2]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x2,y4,t1]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x4,y6,t2]",
+      "NOT D[x4,y4,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y4,t0]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y6,t1]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x4,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x4,y4,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t1]",
+      "D[x4,y6,t1]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x2,y0,t1]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y4,t1]",
+      "D[x2,y0,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x6,y2,t3]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x2,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t1]",
+      "D[x0,y4,t2]",
+      "D[x6,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x2,y0,t1]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x2,y2,t1]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y2,t0]",
+      "D[x4,y2,t1]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "NOT D[x2,y2,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x2,y4,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x4,y6,t2]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y2,t2]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t0]",
+      "D[x0,y4,t2]",
+      "D[x0,y4,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x6,y2,t2]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x2,y4,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x4,y4,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t0]",
+      "D[x4,y4,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y0,t1]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t0]",
+      "D[x4,y6,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x2,y0,t2]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t1]",
+      "D[x0,y4,t1]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t2]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x4,y4,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y4,t1]",
+      "D[x4,y6,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y2,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y6,t2]",
+      "D[x6,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "NOT D[x2,y2,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t0]",
+      "D[x2,y0,t1]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x6,y2,t2]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x4,y2,t1]",
+      "NOT D[x0,y4,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t3]",
+      "D[x4,y4,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x6,y2,t1]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x4,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x2,y4,t2]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y4,t1]",
+      "D[x4,y4,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y6,t1]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y2,t1]",
+      "D[x4,y6,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t1]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x2,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x2,y4,t2]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x4,y6,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x6,y2,t0]",
+      "D[x6,y2,t1]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x2,y4,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x2,y4,t2]",
+      "NOT D[x4,y6,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y0,t2]",
+      "D[x4,y2,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t2]",
+      "NOT D[x4,y2,t1]",
+      "NOT D[x4,y6,t1]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y0,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t2]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t0]",
+      "D[x6,y2,t0]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t1]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y6,t1]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t1]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]"
+     ]
+    ]
+   ],
+   "TM on stabilizer parities": [
+    [
+     1,
+     [
+      "S[x4,y6]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "S[x4,y6]"
+     ]
+    ],
+    [
+     1,
+     [
+      "S[x2,y0]",
+      "S[x4,y2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "NOT S[x0,y4]",
+      "NOT S[x2,y2]",
+      "NOT S[x6,y2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "S[x4,y2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "S[x0,y4]"
+     ]
+    ],
+    [
+     1,
+     [
+      "S[x2,y4]",
+      "S[x6,y2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "NOT S[x0,y4]",
+      "NOT S[x2,y2]",
+      "NOT S[x4,y4]",
+      "NOT S[x6,y2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "S[x2,y2]",
+      "S[x4,y6]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "S[x0,y4]",
+      "S[x2,y2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "S[x2,y4]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "S[x4,y4]",
+      "S[x6,y2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "S[x0,y4]",
+      "S[x2,y0]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "NOT S[x0,y4]",
+      "NOT S[x2,y2]",
+      "NOT S[x6,y2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "S[x2,y2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "S[x4,y6]"
+     ]
+    ],
+    [
+     1,
+     [
+      "S[x2,y0]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "S[x4,y4]"
+     ]
+    ],
+    [
+     1,
+     [
+      "S[x2,y2]",
+      "NOT S[x0,y4]",
+      "NOT S[x2,y0]",
+      "NOT S[x2,y4]",
+      "NOT S[x4,y4]",
+      "NOT S[x4,y6]",
+      "NOT S[x6,y2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "S[x0,y4]"
+     ]
+    ],
+    [
+     1,
+     [
+      "S[x4,y6]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "S[x4,y6]"
+     ]
+    ],
+    [
+     1,
+     [
+      "S[x0,y4]",
+      "S[x6,y2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "S[x4,y4]",
+      "NOT S[x2,y0]",
+      "NOT S[x4,y6]"
+     ]
+    ],
+    [
+     1,
+     [
+      "S[x6,y2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "S[x4,y4]",
+      "NOT S[x0,y4]"
+     ]
+    ],
+    [
+     1,
+     [
+      "S[x6,y2]",
+      "NOT S[x2,y2]",
+      "NOT S[x4,y4]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "S[x2,y4]",
+      "S[x4,y4]"
+     ]
+    ],
+    [
+     1,
+     [
+      "S[x2,y4]",
+      "S[x4,y6]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "S[x0,y4]"
+     ]
+    ],
+    [
+     1,
+     [
+      "S[x2,y0]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "NOT S[x0,y4]",
+      "NOT S[x2,y2]",
+      "NOT S[x6,y2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "S[x4,y6]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "S[x2,y0]"
+     ]
+    ],
+    [
+     1,
+     [
+      "S[x4,y6]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "NOT S[x2,y2]",
+      "NOT S[x4,y4]",
+      "NOT S[x6,y2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "NOT S[x0,y4]",
+      "NOT S[x2,y2]",
+      "NOT S[x4,y4]",
+      "NOT S[x6,y2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "S[x2,y2]",
+      "NOT S[x0,y4]",
+      "NOT S[x2,y4]",
+      "NOT S[x4,y2]",
+      "NOT S[x4,y4]",
+      "NOT S[x6,y2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "S[x2,y4]"
+     ]
+    ]
+   ]
+  },
+  "se": 0.00041352146256270664
+ },
+ "0.01": {
+  "errors": {
+   "no decoding": 0.18823,
+   "MWPM (PyMatching)": 0.05933,
+   "lookup table on parities": 0.08256,
+   "TM on raw detectors": 0.16349,
+   "TM on raw detectors | clauses": 300,
+   "TM on raw detectors | mean literals": 4.37,
+   "TM on stabilizer parities": 0.11896,
+   "TM on stabilizer parities | clauses": 38,
+   "TM on stabilizer parities | mean literals": 1.736842105263158
+  },
+  "rules": {
+   "TM on raw detectors": [
+    [
+     1,
+     [
+      "D[x0,y4,t2]",
+      "D[x2,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t0]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t0]",
+      "D[x0,y4,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x2,y0,t1]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t0]",
+      "D[x4,y6,t1]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t1]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x2,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y0,t1]",
+      "D[x2,y2,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y2,t1]",
+      "D[x4,y2,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t1]",
+      "D[x4,y6,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t1]",
+      "D[x2,y0,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "NOT D[x2,y2,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t1]",
+      "D[x4,y4,t1]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t2]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x2,y0,t1]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y0,t1]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t3]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x2,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t0]",
+      "D[x0,y4,t1]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t3]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x6,y2,t1]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y2,t1]",
+      "D[x4,y6,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t0]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x4,y6,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y2,t1]",
+      "D[x2,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x6,y2,t2]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x4,y2,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t1]",
+      "D[x2,y0,t2]",
+      "D[x4,y2,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x6,y2,t2]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x2,y4,t2]",
+      "NOT D[x2,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y4,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x2,y4,t1]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x4,y4,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t0]",
+      "D[x2,y2,t1]",
+      "D[x4,y6,t1]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x4,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x2,y4,t1]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x2,y4,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t0]",
+      "D[x0,y4,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x6,y2,t2]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x4,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x0,y4,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y0,t1]",
+      "D[x4,y6,t1]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y6,t1]",
+      "NOT D[x2,y4,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y2,t2]",
+      "D[x4,y4,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t1]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x4,y6,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t0]",
+      "D[x2,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t1]",
+      "D[x4,y6,t1]",
+      "D[x2,y0,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x2,y4,t1]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t0]",
+      "D[x0,y4,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x2,y2,t0]",
+      "D[x2,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x2,y2,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y6,t1]",
+      "D[x4,y6,t2]",
+      "D[x4,y4,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y6,t2]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x2,y0,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y0,t1]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t1]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x4,y4,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y6,t1]",
+      "D[x2,y2,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x2,y4,t2]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y0,t2]",
+      "D[x6,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x6,y2,t1]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x4,y4,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y0,t2]",
+      "D[x0,y4,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x6,y2,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x0,y4,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t1]",
+      "D[x2,y0,t2]",
+      "D[x4,y6,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x2,y2,t0]",
+      "D[x2,y2,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x2,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y0,t1]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x2,y4,t1]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x2,y2,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y0,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x2,y4,t1]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x2,y0,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y0,t1]",
+      "D[x0,y4,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t3]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x2,y2,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y0,t2]",
+      "D[x4,y4,t2]",
+      "D[x4,y6,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t3]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y2,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y4,t0]",
+      "D[x2,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y2,t1]",
+      "D[x4,y2,t2]",
+      "NOT D[x2,y4,t1]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y2,t2]",
+      "D[x4,y4,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t3]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t1]",
+      "D[x2,y0,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x2,y4,t2]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x2,y4,t1]",
+      "NOT D[x4,y6,t1]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y0,t2]",
+      "D[x0,y4,t3]",
+      "D[x4,y4,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x2,y2,t0]",
+      "D[x2,y2,t1]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x0,y4,t1]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y0,t2]",
+      "D[x4,y4,t3]",
+      "D[x6,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t1]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x4,y6,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t0]",
+      "D[x0,y4,t1]",
+      "D[x4,y4,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x2,y2,t2]",
+      "D[x2,y2,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t2]",
+      "D[x6,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "NOT D[x2,y2,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t0]",
+      "D[x6,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x4,y6,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t0]",
+      "D[x2,y0,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t2]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x4,y4,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "NOT D[x0,y4,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x2,y4,t1]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x2,y4,t2]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x4,y6,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y6,t2]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t0]",
+      "D[x4,y4,t1]",
+      "D[x2,y0,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t2]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x4,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x2,y0,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t0]",
+      "D[x6,y2,t1]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x6,y2,t0]",
+      "D[x6,y2,t1]",
+      "NOT D[x2,y2,t0]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y6,t1]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t3]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x4,y6,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t0]",
+      "D[x6,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x6,y2,t1]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y6,t1]",
+      "D[x0,y4,t2]",
+      "D[x0,y4,t3]",
+      "D[x6,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x4,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x4,y6,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y4,t1]",
+      "D[x2,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t3]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x4,y6,t1]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t0]",
+      "D[x4,y4,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y6,t1]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x2,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t0]",
+      "D[x6,y2,t1]",
+      "D[x0,y4,t2]",
+      "D[x4,y4,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x2,y4,t1]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y4,t1]",
+      "D[x2,y0,t2]",
+      "D[x6,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t1]",
+      "D[x4,y6,t2]",
+      "D[x2,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t1]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y2,t0]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x4,y4,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x2,y2,t2]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x4,y4,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y4,t1]",
+      "D[x4,y2,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t2]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x0,y4,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t0]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t2]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x4,y6,t2]",
+      "NOT D[x2,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t0]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t3]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x4,y2,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y4,t1]",
+      "D[x0,y4,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x2,y4,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t0]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t2]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y6,t1]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x2,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y6,t1]",
+      "D[x2,y0,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x2,y4,t2]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y2,t0]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t2]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t1]",
+      "D[x0,y4,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t1]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t0]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x4,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x2,y0,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y4,t1]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x2,y2,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x4,y4,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t0]",
+      "D[x6,y2,t1]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x2,y0,t1]",
+      "D[x2,y0,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t0]",
+      "D[x0,y4,t2]",
+      "D[x6,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t1]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x2,y2,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t0]",
+      "D[x6,y2,t0]",
+      "D[x2,y2,t3]",
+      "D[x6,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t2]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y0,t1]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t3]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x4,y6,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y4,t0]",
+      "D[x4,y6,t1]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y6,t1]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x0,y4,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y2,t1]",
+      "D[x6,y2,t1]",
+      "D[x2,y2,t3]",
+      "D[x6,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x2,y4,t2]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x2,y4,t1]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y0,t1]",
+      "D[x2,y2,t1]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t1]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y2,t0]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x4,y6,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y2,t0]",
+      "D[x0,y4,t1]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t1]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x2,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t1]",
+      "D[x2,y0,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t0]",
+      "NOT D[x4,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y0,t1]",
+      "D[x4,y6,t1]",
+      "D[x4,y4,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t0]",
+      "D[x4,y6,t1]",
+      "D[x2,y2,t2]",
+      "D[x4,y4,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t3]",
+      "NOT D[x4,y2,t1]",
+      "NOT D[x2,y4,t1]",
+      "NOT D[x4,y4,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y4,t1]",
+      "D[x4,y6,t1]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x6,y2,t0]",
+      "D[x6,y2,t1]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t0]",
+      "D[x0,y4,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t3]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y0,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y2,t1]",
+      "D[x4,y6,t1]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y6,t1]",
+      "D[x4,y4,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t3]",
+      "D[x6,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x6,y2,t2]",
+      "D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y6,t1]",
+      "D[x4,y2,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x6,y2,t3]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x0,y4,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y0,t1]",
+      "D[x4,y6,t1]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t0]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x0,y4,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x2,y4,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t0]",
+      "D[x4,y4,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t2]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x2,y4,t1]",
+      "NOT D[x4,y4,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t0]",
+      "D[x0,y4,t2]",
+      "D[x4,y4,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y6,t2]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y4,t1]",
+      "D[x2,y0,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t1]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y2,t3]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x4,y4,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y0,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x2,y2,t2]",
+      "D[x2,y2,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t0]",
+      "D[x4,y4,t1]",
+      "D[x0,y4,t3]",
+      "D[x4,y4,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x2,y2,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t0]",
+      "D[x2,y0,t2]",
+      "D[x2,y4,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x6,y2,t0]",
+      "D[x6,y2,t1]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y4,t2]",
+      "NOT D[x4,y6,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y2,t2]",
+      "D[x4,y4,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y2,t2]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x2,y2,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t2]",
+      "D[x6,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x2,y0,t1]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x4,y6,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y2,t2]",
+      "D[x4,y4,t2]",
+      "D[x0,y4,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t3]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y4,t0]",
+      "D[x2,y0,t2]",
+      "D[x4,y4,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y2,t1]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x0,y4,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t1]",
+      "D[x6,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t0]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x2,y4,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y0,t1]",
+      "D[x4,y6,t1]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t3]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x0,y4,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t0]",
+      "D[x2,y0,t1]",
+      "D[x4,y4,t1]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t1]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t1]",
+      "D[x0,y4,t1]",
+      "D[x2,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t2]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x4,y6,t2]",
+      "NOT D[x0,y4,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y6,t1]",
+      "D[x2,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x6,y2,t2]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x4,y2,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x2,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y2,t2]",
+      "D[x4,y6,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t1]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y0,t2]",
+      "D[x2,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x2,y4,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y0,t1]",
+      "D[x4,y6,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x2,y0,t1]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x2,y2,t1]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y2,t2]",
+      "D[x0,y4,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "NOT D[x2,y2,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x2,y4,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x4,y6,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y0,t1]",
+      "D[x4,y6,t1]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t2]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x4,y6,t2]",
+      "NOT D[x4,y4,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t0]",
+      "D[x6,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t2]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x2,y0,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t1]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y4,t0]",
+      "D[x6,y2,t0]",
+      "D[x2,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t1]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x2,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t0]",
+      "D[x4,y4,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t3]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x4,y6,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t0]",
+      "D[x0,y4,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x2,y2,t2]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y2,t0]",
+      "D[x6,y2,t0]",
+      "D[x2,y0,t1]",
+      "D[x2,y2,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t2]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x0,y4,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y2,t0]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x4,y6,t2]",
+      "NOT D[x2,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x2,y4,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x2,y4,t2]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t0]",
+      "D[x0,y4,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x6,y2,t1]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x4,y2,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y2,t2]",
+      "D[x4,y6,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y6,t1]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y0,t1]",
+      "D[x0,y4,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x6,y2,t1]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x4,y2,t1]",
+      "NOT D[x2,y4,t1]",
+      "NOT D[x4,y6,t2]",
+      "NOT D[x4,y4,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y6,t2]",
+      "D[x6,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x6,y2,t2]",
+      "D[x6,y2,t3]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x2,y0,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t0]",
+      "D[x6,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x2,y4,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x2,y4,t2]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y2,t0]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x4,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t3]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x6,y2,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t2]",
+      "D[x6,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t0]",
+      "D[x6,y2,t0]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y0,t1]",
+      "D[x4,y2,t2]",
+      "D[x4,y6,t2]",
+      "D[x4,y4,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t0]",
+      "D[x0,y4,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t0]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t0]",
+      "D[x6,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "NOT D[x2,y2,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x4,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x2,y4,t1]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x2,y4,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y2,t2]",
+      "D[x0,y4,t2]",
+      "D[x4,y4,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y6,t2]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x2,y4,t2]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t0]",
+      "D[x2,y4,t1]",
+      "D[x2,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x2,y4,t2]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y2,t1]",
+      "D[x4,y6,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t0]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t0]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x2,y2,t1]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x2,y4,t2]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t0]",
+      "D[x2,y4,t1]",
+      "D[x4,y6,t1]",
+      "D[x6,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x4,y6,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t0]",
+      "D[x0,y4,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t0]",
+      "D[x2,y2,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x6,y2,t2]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x4,y6,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t0]",
+      "D[x4,y2,t1]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t2]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x4,y4,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y2,t2]",
+      "D[x4,y4,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t0]",
+      "NOT D[x4,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x2,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y0,t1]",
+      "D[x0,y4,t1]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x2,y0,t2]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x4,y2,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y2,t0]",
+      "D[x0,y4,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x2,y2,t2]",
+      "D[x2,y2,t3]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y2,t1]",
+      "D[x2,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y6,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x2,y2,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t2]",
+      "D[x6,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x6,y2,t2]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x4,y2,t1]",
+      "NOT D[x2,y4,t1]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x4,y6,t1]",
+      "NOT D[x4,y6,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t1]",
+      "D[x4,y6,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x6,y2,t0]",
+      "D[x6,y2,t1]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x2,y2,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y4,t1]",
+      "D[x2,y0,t2]",
+      "D[x0,y4,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t2]",
+      "NOT D[x4,y2,t1]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y2,t0]",
+      "D[x0,y4,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "NOT D[x2,y2,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x2,y4,t2]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t0]",
+      "D[x0,y4,t1]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x0,y4,t1]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y0,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "NOT D[x2,y2,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x4,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y6,t2]",
+      "D[x4,y4,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y6,t2]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t1]",
+      "D[x2,y4,t1]",
+      "D[x2,y0,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t3]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x0,y4,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x4,y4,t0]",
+      "D[x6,y2,t0]",
+      "D[x0,y4,t1]",
+      "D[x4,y4,t3]",
+      "D[x6,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x0,y4,t3]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t1]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t1]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t1]",
+      "D[x0,y4,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x6,y2,t0]",
+      "D[x6,y2,t1]",
+      "NOT D[x0,y4,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t1]",
+      "D[x0,y4,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t3]",
+      "NOT D[x6,y2,t1]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x0,y4,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t1]",
+      "D[x4,y4,t1]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t3]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x6,y2,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y0,t1]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x2,y2,t2]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x4,y4,t0]",
+      "NOT D[x6,y2,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x4,y2,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x0,y4,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x2,y4,t1]",
+      "D[x2,y0,t2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x2,y0,t1]",
+      "D[x2,y0,t2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x2,y2,t1]",
+      "D[x2,y2,t2]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x0,y4,t1]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x2,y0,t2]",
+      "NOT D[x0,y4,t2]",
+      "NOT D[x0,y4,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x0,y4,t1]",
+      "D[x6,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t2]",
+      "NOT D[x0,y4,t0]",
+      "NOT D[x2,y2,t0]",
+      "NOT D[x2,y2,t1]",
+      "NOT D[x6,y2,t2]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ],
+    [
+     1,
+     [
+      "D[x6,y2,t0]",
+      "D[x0,y4,t1]",
+      "D[x4,y4,t1]",
+      "D[x2,y2,t3]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "D[x4,y4,t0]",
+      "NOT D[x2,y0,t1]",
+      "NOT D[x4,y4,t1]",
+      "NOT D[x2,y2,t2]",
+      "NOT D[x4,y4,t2]",
+      "NOT D[x2,y2,t3]",
+      "NOT D[x4,y4,t3]",
+      "NOT D[x6,y2,t3]"
+     ]
+    ]
+   ],
+   "TM on stabilizer parities": [
+    [
+     1,
+     [
+      "S[x4,y2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "S[x4,y2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "S[x2,y2]",
+      "NOT S[x0,y4]",
+      "NOT S[x2,y4]",
+      "NOT S[x4,y4]",
+      "NOT S[x4,y6]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "S[x4,y4]",
+      "NOT S[x2,y2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "S[x6,y2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "NOT S[x2,y2]",
+      "NOT S[x4,y4]",
+      "NOT S[x6,y2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "S[x0,y4]",
+      "S[x2,y0]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "S[x6,y2]",
+      "NOT S[x0,y4]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "S[x0,y4]",
+      "NOT S[x6,y2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "S[x4,y6]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "S[x4,y6]"
+     ]
+    ],
+    [
+     1,
+     [
+      "S[x2,y0]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "NOT S[x0,y4]",
+      "NOT S[x2,y2]",
+      "NOT S[x4,y4]"
+     ]
+    ],
+    [
+     1,
+     [
+      "S[x2,y0]",
+      "S[x4,y2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "S[x4,y4]",
+      "NOT S[x2,y4]"
+     ]
+    ],
+    [
+     1,
+     [
+      "S[x6,y2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "S[x0,y4]"
+     ]
+    ],
+    [
+     1,
+     [
+      "S[x6,y2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "NOT S[x0,y4]",
+      "NOT S[x2,y2]",
+      "NOT S[x4,y4]",
+      "NOT S[x6,y2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "S[x2,y0]"
+     ]
+    ],
+    [
+     1,
+     [
+      "S[x0,y4]",
+      "S[x4,y6]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "S[x6,y2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "S[x0,y4]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "S[x2,y4]",
+      "NOT S[x2,y0]"
+     ]
+    ],
+    [
+     1,
+     [
+      "S[x6,y2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "S[x2,y0]"
+     ]
+    ],
+    [
+     1,
+     [
+      "S[x4,y2]",
+      "S[x4,y6]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "NOT S[x0,y4]",
+      "NOT S[x2,y2]",
+      "NOT S[x6,y2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "S[x0,y4]",
+      "S[x6,y2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "NOT S[x0,y4]",
+      "NOT S[x2,y2]",
+      "NOT S[x6,y2]"
+     ]
+    ],
+    [
+     1,
+     [
+      "S[x6,y2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "S[x2,y0]"
+     ]
+    ],
+    [
+     1,
+     [
+      "S[x4,y2]",
+      "S[x4,y6]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "S[x4,y4]",
+      "NOT S[x0,y4]",
+      "NOT S[x2,y0]"
+     ]
+    ],
+    [
+     1,
+     [
+      "S[x2,y0]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "S[x0,y4]"
+     ]
+    ],
+    [
+     1,
+     [
+      "S[x4,y2]"
+     ]
+    ],
+    [
+     -1,
+     [
+      "S[x4,y2]"
+     ]
+    ]
+   ]
+  },
+  "se": 0.0007702596964660685
+ }
+}
