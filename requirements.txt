@@ -1,4 +1,5 @@
 numpy
 stim
+numba
 pymatching  # reference only, used in tests and the benchmark
 pytest

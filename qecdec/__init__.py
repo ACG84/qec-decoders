@@ -10,4 +10,6 @@ from .hybrid import HybridDecoder
 from .bp import BPDecoder
 from .local_matching import LocalMatchingDecoder
 from .parallel import parallel_decode
+from .predecode import PairCancel
+from .fast import FastMWPMDecoder, FastUnionFindDecoder
 from . import metrics

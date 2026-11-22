@@ -12,19 +12,20 @@ from .unionfind import UnionFindDecoder
 
 
 class CutVoteDecoder:
-    def __init__(self, graph, fallback=None):
-        self.g = graph
+    def __init__(self, graph, fallback=None, predecode=None):
+        self.g = graph; self.pre = predecode
         self.fallback = fallback if fallback is not None else UnionFindDecoder(graph)
         M, names = cut_literals(graph)
         self.C = M[[i for i, n in enumerate(names) if n.startswith("cut") and "^" not in n]]
-        self.name = f"Cut vote -> {self.fallback.name}"
+        self.name = ("Pair cancel -> " if predecode is not None else "") + f"Cut vote -> {self.fallback.name}"
         self.fast = 0; self.total = 0
 
     def decode_batch(self, syndromes):
         S = np.atleast_2d(syndromes)
-        V = (S.astype(np.int32) @ self.C.T) % 2
+        R, done = (S, 0) if self.pre is None else self.pre.apply(S)
+        V = (R.astype(np.int32) @ self.C.T) % 2
         unanimous = V.min(axis=1) == V.max(axis=1)
-        pred = V[:, 0].astype(np.uint8)
+        pred = V[:, 0].astype(np.uint8) ^ done
         rest = np.flatnonzero(~unanimous)
         if len(rest):
             pred[rest] = self.fallback.decode_batch(S[rest])

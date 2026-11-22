@@ -141,3 +141,47 @@ if __name__ == "__main__":
     for name, fn in list(globals().items()):
         if name.startswith("test_"):
             t = time.time(); fn(); print(f"PASS {name} ({time.time() - t:.1f}s)")
+
+
+def test_numba_decoders_match_the_reference_shot_for_shot():
+    for d, p in ((3, 0.005), (5, 0.005)):
+        c = qd.surface_code_circuit(d, p=p); g = qd.DecodingGraph(c); S, O = qd.sample(c, 1500, seed=11)
+        assert (qd.FastMWPMDecoder(g, large="greedy").decode_batch(S) == qd.MWPMDecoder(g).decode_batch(S)).all()
+        assert (qd.FastUnionFindDecoder(g).decode_batch(S) == qd.UnionFindDecoder(g).decode_batch(S)).all()
+
+
+def test_window_search_agrees_with_reference_matching_at_distance_7():
+    """Large defect groups (window search) must stay close to PyMatching where greedy does not."""
+    import pymatching
+    c = qd.surface_code_circuit(7, p=0.004); g = qd.DecodingGraph(c); S, O = qd.sample(c, 3000, seed=4)
+    ref = pymatching.Matching.from_detector_error_model(c.detector_error_model(decompose_errors=True)).decode_batch(S)[:, 0]
+    lns = qd.FastMWPMDecoder(g).decode_batch(S); greedy = qd.FastMWPMDecoder(g, large="greedy").decode_batch(S)
+    assert (lns == ref).mean() > 0.995
+    assert (lns != O).mean() < (greedy != O).mean()
+
+
+def test_pair_cancel_clears_every_isolated_two_detector_fault():
+    for g in (graph(3), graph(5)):
+        pre = qd.PairCancel(g)
+        for e in range(len(g.eu)):
+            u, v = int(g.eu[e]), int(g.ev[e])
+            if g.is_boundary(u) or g.is_boundary(v):
+                continue
+            s = np.zeros(g.n, np.uint8); s[u] = s[v] = 1
+            R, obs = pre.apply(s)
+            assert R.sum() == 0 and obs[0] == g.eobs[e], e
+        s = np.zeros(g.n, np.uint8); s[0] = 1                    # a lone detector is left alone
+        R, obs = pre.apply(s)
+        assert R.sum() == 1 and obs[0] == 0
+
+
+def test_pair_cancel_layer_helps_the_rule_machine():
+    c = qd.surface_code_circuit(5, p=0.003); g = qd.DecodingGraph(c)
+    Str, Otr = qd.sample(c, 12000, seed=2); S, O = qd.sample(c, 6000, seed=1)
+    pre = qd.PairCancel(g); Rtr, dtr = pre.apply(Str); R, done = pre.apply(S)
+    plain = qd.CliffordClauseDecoder(g).fit(Str, Otr, epochs=4)
+    layered = qd.CliffordClauseDecoder(g).fit(Rtr, Otr ^ dtr, epochs=4)
+    e_plain = (plain.decode_batch(S) != O).mean(); e_layered = ((layered.decode_batch(R) ^ done) != O).mean()
+    assert e_layered < e_plain
+    hyb = qd.HybridDecoder(layered, fallback=qd.FastMWPMDecoder(g), predecode=pre)
+    assert (hyb.decode_batch(S) != O).mean() < e_layered and hyb.fast / hyb.total > 0.5

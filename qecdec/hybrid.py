@@ -11,18 +11,22 @@ from .mwpm import MWPMDecoder
 
 
 class HybridDecoder:
-    def __init__(self, rule_decoder, fallback=None, margin=None):
+    """predecode: an optional `PairCancel` layer. The rule machine then reads the residual
+    syndrome (it must have been trained on residuals); the fallback always gets the original."""
+
+    def __init__(self, rule_decoder, fallback=None, margin=None, predecode=None):
         margin = rule_decoder.tm.T + 1 if margin is None else margin   # just past the training target T
-        self.rules_dec, self.margin = rule_decoder, margin
+        self.rules_dec, self.margin, self.pre = rule_decoder, margin, predecode
         self.fallback = fallback if fallback is not None else MWPMDecoder(rule_decoder.g)
-        self.name = f"Clifford-clause -> MWPM (margin {margin})"
+        self.name = ("Pair cancel -> " if predecode is not None else "") + f"Clifford-clause -> MWPM (margin {margin})"
         self.fast = 0; self.total = 0
 
     def decode_batch(self, syndromes):
         S = np.atleast_2d(syndromes)
-        votes = self.rules_dec.tm.votes(self.rules_dec.features(S))
+        R, done = (S, 0) if self.pre is None else self.pre.apply(S)
+        votes = self.rules_dec.tm.votes(self.rules_dec.features(R))
         confident = np.abs(votes) >= self.margin
-        pred = (votes > 0).astype(np.uint8)
+        pred = (votes > 0).astype(np.uint8) ^ done
         rest = np.flatnonzero(~confident)
         if len(rest):
             pred[rest] = self.fallback.decode_batch(S[rest])

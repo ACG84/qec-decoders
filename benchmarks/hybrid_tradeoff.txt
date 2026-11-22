@@ -1,3 +1,15 @@
-d5_p0.002: matching 0.00100 (24 us/shot), rules alone 0.00805 (7.5 us/shot), empty syndromes 17.8%; within 15% of matching: rules answer 90.5% at margin 13 (LER 0.00110)
-d7_p0.002: matching 0.00100 (811 us/shot), rules alone 0.01920 (18.9 us/shot), empty syndromes 0.7%; within 15% of matching: rules answer 85.3% at margin 13 (LER 0.00110)
-d5_p0.005: matching 0.01455 (386 us/shot), rules alone 0.07215 (8.3 us/shot), empty syndromes 1.4%; within 15% of matching: rules answer 61.5% at margin 14 (LER 0.01660)
+d=5, p=0.002, 20000 test shots: our matching 0.00100, PyMatching 0.00100, matching 1 us/shot (numba, 2 threads)
+   rules               : alone 0.00805; margin 13 (chosen on validation) answers 90.5% of shots, hybrid LER 0.00110; rule path 7 us/shot
+   pair cancel + rules : alone 0.00460; margin 12 (chosen on validation) answers 96.6% of shots, hybrid LER 0.00145; rule path 17 us/shot
+d=5, p=0.005, 20000 test shots: our matching 0.01445, PyMatching 0.01440, matching 10 us/shot (numba, 2 threads)
+   rules               : alone 0.07215; margin 15 (chosen on validation) answers 59.9% of shots, hybrid LER 0.01605; rule path 9 us/shot
+   pair cancel + rules : alone 0.04035; margin 12 (chosen on validation) answers 78.4% of shots, hybrid LER 0.01570; rule path 13 us/shot
+d=7, p=0.002, 20000 test shots: our matching 0.00025, PyMatching 0.00025, matching 28 us/shot (numba, 2 threads)
+   rules               : alone 0.01980; margin 19 (chosen on validation) answers 73.2% of shots, hybrid LER 0.00035; rule path 22 us/shot
+   pair cancel + rules : alone 0.00450; margin 10 (chosen on validation) answers 97.4% of shots, hybrid LER 0.00080; rule path 53 us/shot
+d=7, p=0.004, 10000 test shots: our matching 0.00480, PyMatching 0.00410, matching 607 us/shot (numba, 2 threads)
+   rules               : alone 0.11210; margin 17 (chosen on validation) answers 35.2% of shots, hybrid LER 0.00610; rule path 21 us/shot
+   pair cancel + rules : alone 0.04100; margin 18 (chosen on validation) answers 65.5% of shots, hybrid LER 0.00530; rule path 61 us/shot
+d=9, p=0.002, 10000 test shots: our matching 0.00030, PyMatching 0.00020, matching 944 us/shot (numba, 2 threads)
+   rules               : alone 0.04430; margin 20 (chosen on validation) answers 44.6% of shots, hybrid LER 0.00040; rule path 53 us/shot
+   pair cancel + rules : alone 0.00490; margin 11 (chosen on validation) answers 95.9% of shots, hybrid LER 0.00060; rule path 115 us/shot
